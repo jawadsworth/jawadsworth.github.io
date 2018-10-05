@@ -7,17 +7,17 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: red/* #xxxxxx */;
+    font-family: Ubuntu, sans-serif;
+    color: red;
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
-    color:whitesmoke /* #xxxxxx */;
+    font-size: 2rem;
+    color:whitesmoke;
 }
 
 h2 {
-    font-size: 1em /* x.xrem */;
+    font-size: 1em;
     text-align: center;
     border-bottom: 1px solid rgb(234, 238, 241);
     color: rgb(241, 244, 247)
@@ -26,12 +26,12 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 700px;/* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 700px;
 }
 
 header, footer, footer a {
     text-align: center;
-    background-color: rgb(33, 23, 168) /* */;
+    background-color: rgb(33, 23, 168);
     color: rgb(242, 244, 247);
 }
 
@@ -42,6 +42,6 @@ header img {
 }
 
 footer {
-    font-size:.5em /* smaller */;
+    font-size:.5em;
 }
 

@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
-    color: red;
+    color:blue;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2 {
     font-size: 1em;
     text-align: center;
     border-bottom: 1px solid rgb(234, 238, 241);
-    color: rgb(241, 244, 247)
+    color: blue
 }
 
 header, main, footer {

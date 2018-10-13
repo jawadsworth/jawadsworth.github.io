@@ -1,0 +1,7 @@
+h2 {color: green;}
+h3 {color: purple; background-color: #ffff00;}
+p {color: orangered; font-family: helvetica, arial, sans-serif; line-height: 1.5em;}
+a {color: yellowgreen; font-size:.5em;}
+ul {border: 3px solid goldenrod}
+li { font-weight: bold; font-style: italic;}
+blockquote {width: 12em; border:5px solid black;}

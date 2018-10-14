@@ -1,0 +1,225 @@
+body {
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman";
+}
+header {
+    background-color: green;
+    text-align: left;
+    padding: 0em;
+    color: white;
+    margin: 0em;
+    border: 0em;
+}
+
+header > img {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.headertext{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0em;
+
+}
+
+.headertext h1 {
+    font-size: 2em;
+    padding-left: 7.5em;
+    padding-right: auto;
+}
+
+.subheading {
+    font-size: 1.1em;
+    color: yellowgreen;
+    padding-left: 15em;
+    padding-right: auto;
+
+}
+
+.currentconditions {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    border: black;
+    margin-right: 5em;
+    background-color: darkgreen;
+    padding: .8em;
+}
+
+header > .currentconditions >img {
+    width: 50px;
+    height: 50px;
+    padding: 0em;
+}
+
+.currentconditions p {
+    padding: 0em;
+    margin: 0em;
+    font-size: .8em;
+    text-align: middle;
+}
+
+nav {
+    
+    padding: 0em;
+    margin: 0em;
+}
+
+.tileme li {
+        display: inline;
+        vertical-align: middle;
+}
+
+nav ul li {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    color: blue;
+}
+
+body h1{
+    text-align: center;
+}
+
+.summary {
+    width: 56em;
+    height: 23em;
+    border: .1em solid black;
+   margin-left: 5em;
+ }
+ 
+.summary { 
+    background-image: url(a.jpg);
+    background-size: 56em 23em;
+    background-repeat: no-repeat;
+        
+}
+
+main div h3 {
+    padding-left: 2em;
+}
+
+.summary blockquote {
+    width: 15em;
+    height: 20em;
+}
+
+.forecast {
+    width: 56em;
+    height: 5em;
+    margin-left: 5em;
+    border: .1em solid black;
+    background-color: blue;
+    margin-top: .5em;
+}
+
+.forecast h3{
+    text-align: center;
+}
+
+.forecast p{
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.articles {
+    background-color: green;
+    text-align: left;
+    padding: 0em;
+    color: white;
+    width: 56em;
+    height: 15em;
+    margin-left: 5em;
+    border: .1em solid black;
+}
+
+.articlesummary {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0em;
+}
+
+.articlesummary h2 {
+    font-size: 1.5em;
+ 
+    Padding-top: 0em;
+    margin-bottom: .001em;
+    width:18em;
+    text-align: center;
+
+}
+
+.articlesummary p {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0em;
+    width: 30em;
+    margin-top: .001em;
+}
+
+.rightimage{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    border: black;
+    margin-right: 5em;
+    background-color: darkgreen;
+    padding: .8em;
+    margin-top: 1em;
+}
+.storm {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.mapci {
+    background-color: green;
+    text-align: left;
+    padding: 0em;
+    color: white;
+    width: 56em;
+    height: 15em;
+    margin-left: 5em;
+    border: .1em solid black;
+}
+
+.map {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25em;
+    height: 14em;
+    border: dotted .4em red;
+}
+.ci {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    width: 25em;
+    height: 15em;
+    border: black;
+    background-color: purple;
+    
+}
+
+footer {
+    background-color: purple;
+    text-align: center;
+    padding: 0em;
+    color: white;
+    width: 56em;
+    height: 3em;
+    margin-left: 5em;
+    border: .1em solid black;
+}

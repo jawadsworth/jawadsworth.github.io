@@ -1,3 +1,5 @@
+@media only screen and (min-width:768px) {
+
 body{
     font-family: 'Times New Roman', 'calibri';
 }
@@ -245,4 +247,5 @@ nav ul {
 
 .footline{
     text-align: center;
+}
 }

@@ -50,6 +50,7 @@ header > img {
     margin-right: 5em;
     background-color: darkgreen;
     padding: .8em;
+    overflow: auto;
 }
 
 header > .currentconditions >img {
@@ -59,10 +60,13 @@ header > .currentconditions >img {
 }
 
 .currentconditions p {
+    display: inline-block;
+    vertical-align: middle;
     padding: 0em;
     margin: 0em;
     font-size: .8em;
     text-align: middle;
+    padding-bottom: 2.8em;
 }
 
 nav {
@@ -92,16 +96,18 @@ body h1{
 }
 
 .summary {
-    width: 56em;
-    height: 23em;
+    max-width: 56em;
+    max-height: 30em;
+    min-height: 25em;
     border: .1em solid black;
    margin-left: 5em;
  }
  
 .summary { 
     background-image: url(a.jpg);
-    background-size: 56em 23em;
+    background-size: 100%;
     background-repeat: no-repeat;
+    min-height: 50em;
         
 }
 
@@ -110,8 +116,10 @@ main div h3 {
 }
 
 .summary blockquote {
-    width: 15em;
-    height: 20em;
+   max-width: 15em;
+   max-height: 30em;
+   min-height: 25em;
+   overflow: auto;
 }
 
 .forecast {
@@ -222,4 +230,10 @@ footer {
     height: 3em;
     margin-left: 5em;
     border: .1em solid black;
+}
+
+.summarytable {
+    Position: relative;
+    right: 3em;
+    top: -10em;
 }

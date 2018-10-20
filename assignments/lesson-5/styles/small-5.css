@@ -1,0 +1,253 @@
+body{
+    font-family: 'Times New Roman', 'calibri';
+}
+
+h1{
+    font-family: 'Tangerine', 'sans-serif';
+}
+
+.container{
+    width: 46em;
+}
+
+header{
+    background-color: skyblue;
+    Color:white;
+    margin: 0em;
+    border: 0em;
+    border: solid black 1em;
+    position: relative;
+    left: .5em;
+    right: .5em;
+    max-height: 10em;
+    max-width: 56em;
+    
+}
+
+header img{
+    max-width: 7em;
+    height: auto;
+    
+    vertical-align: center;
+   
+    position: relative;
+    left: 8.5em;
+    top: 2em;
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+    left: 11.5em;
+    top: 2em;
+    
+    
+    
+    
+}
+
+.subheading{
+    margin-left: 17%;
+    margin-top: 0%;
+}
+
+.currentconditions{
+    visibility: hidden;
+    
+
+}
+
+.currentconditions p{
+    visibility: hidden;
+}
+
+nav {
+    background-color: greenyellow;
+    border: solid black 1em;
+    
+    position: relative;
+    left: .5em;
+    right: .5em;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.currentconditions img{
+    visibility: hidden
+   
+   
+}
+
+
+.city{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    left: .5em;
+    right: .5em;
+    max-width: 56em;
+    border: 1em;
+}
+
+.container2 {
+    position: relative;
+    
+    left: 4em;
+    
+    max-width: 56em;
+}
+
+.summary {
+    
+   
+    background-image: url(city.jpg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    max-height: 20em;
+    max-width: 56em;
+}
+
+.summarytable{
+    position: relative;
+    top: 2em;
+    left: 4em;
+    width: fit-content;   
+    background-color: plum;
+    opacity: .7;
+    Border: solid rgb(92, 46, 92) 1em;
+}
+
+.summarytable{
+    text-align:center;
+    font-size: 20px;
+}
+
+.r1{
+    text-align: right;
+    color: rgb(250, 250, 7);
+    opacity: 5;
+    font-size: 16px;
+    font-family: 'Arial'
+}
+
+.r2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    opacity: 5;
+    font-size: 16px;
+    font-family: 'Arial'
+}
+.forecast{
+   max-width: 0em;
+   max-height: 0em;
+   border: solid black .2em;
+   background-color: lightskyblue;
+   margin-top:3em;
+   visibility: hidden;
+}
+
+.forecast h3{
+    text-align: center;
+
+}
+
+.forecasttable{
+    margin-left: auto;
+    margin-right: auto;
+}
+.forecasttable th, .forecasttable td{
+    width: 5em;
+    text-align: center;
+    border: solid black .1em;
+}
+
+.articles{
+    min-height: 15em;
+    max-width: 39em;
+    border: solid black .2em;
+    background-color: plum;
+}
+
+.heading{
+    position: relative;
+    left: 3em;
+}
+
+.heading h2{
+    font-size: 20px;
+}
+
+.heading h3{
+    font-size: 17px;
+}
+
+.articlesummary{
+    display: block;
+    max-width: 420px;
+    height: auto;
+    position: relative;
+    left: 1.3em;
+}
+
+.rightimage{
+    display: block;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    right: -7em;
+    
+}
+
+.mapci{
+    max-width: 39em;
+    min-height: 25em;
+    
+    background-color: lightgreen;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border: solid black .2em;
+}
+
+.imgleft{
+    visibility: hidden;
+    width: 1px;
+    height: auto;
+
+}
+
+.contact1{
+    display: block;
+    position: relative;
+    left: 10em;
+    
+    
+}
+
+.map{
+    display: block;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    left: 6.5em;
+    margin:1em;
+    
+}
+
+.foot{
+    max-width: 39em;
+    background-color: rgb(101, 141, 101);
+    margin-top: 0em;
+    border: solid black .2em;
+}
+
+.footline{
+    text-align: center;
+}

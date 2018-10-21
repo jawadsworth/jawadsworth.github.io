@@ -125,7 +125,9 @@ nav ul {
     position: relative;
     top: 2em;
     left: 4em;
-    width: fit-content;   
+    max-width: 10em;  
+    max-height: 12em; 
+    padding-bottom: 1em;    
     background-color: plum;
     opacity: .7;
     Border: solid rgb(92, 46, 92) 1em;

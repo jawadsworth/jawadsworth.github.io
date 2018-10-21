@@ -1,4 +1,4 @@
-@media only screen and (min-width:800px) {
+@media only screen and (min-device-width:480.1px) {
 
 body{
     font-family: 'Times New Roman', 'calibri';
@@ -211,7 +211,7 @@ nav ul {
 
 .rightimage{
     display: inline-block;
-    max-width: 25em;
+    max-width: 22em;
     height: auto;
     float: right;
     position: relative;

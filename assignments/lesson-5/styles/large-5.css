@@ -2,29 +2,29 @@
 
 body{
     font-family: 'Times New Roman', 'calibri';
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 h1{
     font-family: 'Tangerine', 'sans serif';
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 
 h2{
     font-family: 'Times New Roman', 'calibri';
-    font-size: 1.7vw;
+    font-size: 2.2vw;
 }
 
 h3{
     font-family: 'Times New Roman', 'calibri';
-    font-size: 1.35vw;
+    font-size: 1.7vw;
 }
+
 
 .container{
     max-width: 69em;
+
 }
-
-
 
 header{
     background-color: skyblue;
@@ -40,7 +40,7 @@ header{
 }
 
 header img{
-    width: 100px;
+    width: 10em;
     height: auto;
     display: inline-block;
     Margin-left: 13%;
@@ -96,7 +96,7 @@ nav ul {
 }
 
 .currentconditions img{
-    width: 65px;
+    width: 5em;
     height: auto;
    
 }
@@ -200,25 +200,32 @@ nav ul {
 }
 .articlesummary{
     display: inline-block;
-    max-width: 420px;
+    max-width: 25em;
     height: auto;
     position: relative;
     right: .5em;
     bottom: 2.2em;
 }
 
+
+
 .rightimage{
     display: inline-block;
-    max-width: 500px;
+    max-width: 25em;
     height: auto;
     float: right;
     position: relative;
-    top: .8em;
-    left: -3em;
+    top: 3em;
+    left: -1em;
 }
 
+
+
+
+
+
 .mapci{
-    max-width: 65em;
+    Width: 65em;
     max-height: 15em;
     background-color: lightgreen;
     margin-top: 5em;
@@ -228,28 +235,30 @@ nav ul {
 
 .imgleft{
     display: inline-block;
-    max-width: 250px;
+    max-width: 20em;
     height: auto;
     position: relative;
-    bottom: -2em;
+    bottom: 0em;
     left: 4em;
 
 }
 
 .contact1{
+    max-width: 20em;
+    height: auto;
     display: inline-block;
     position: relative;
-    bottom: 6em;
+    bottom: 10em;
     left: 7em;
 }
 
 .map{
     display: inline-block;
-    max-width: 230px;
+    max-width: 15em;
     height: auto;
     position: relative;
-    left: 15em;
-    top: 2em;
+    left: 10em;
+    
 }
 
 .foot{
@@ -263,3 +272,4 @@ nav ul {
     text-align: center;
 }
 }
+

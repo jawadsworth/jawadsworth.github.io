@@ -1,277 +1,291 @@
-@media only screen and (min-device-width:480.1px) {
+@media only screen and (min-width: 600.1px){
 
-body{
-    font-family: 'Times New Roman', 'calibri';
-    font-size: 1.5vw;
-}
+    body{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.8vw;
+    }
+    
+    h1{
+        font-family: 'Tangerine', 'sans serif';
+        font-size: 2.8vw;
+    }
+    
+    h2{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 2.5vw;
+    }
+    
+    h3{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 2vw;
+    }
+    
+    .container{
+        width: 52em;
+        position: relative;
+        left: 1.5em;
+        right: -1em;
+       
+    }
+    
+    header{
+        background-color: skyblue;
+        Color:white;
+        margin: 0em;
+        border: 0em;
+        padding: 0em;
+        
+        max-height: 10em;
+        max-width: 62em;
+        
+    }
+    
+    header img{
+        max-width: 7em;
+        height: auto;
+        
+        vertical-align: center;
+       
+        position: relative;
+        left: 8.5em;
+        top: 1em;
+    }
+    
+    .headertext {
+        display: inline-block;
+        vertical-align: center;
+        position: relative;
+        left: 17em;
+        top: 1em;
+        
+        
+        
+        
+    }
+    
+    .subheading{
+        margin-left: 17%;
+        margin-top: 0%;
+    }
+    
+    
 
-h1{
-    font-family: 'Tangerine', 'sans serif';
-    font-size: 2.5vw;
-}
+    .currentconditions{
+        Display: inline-block;
+        vertical-align: center;
+        min-width: 10em;
+        Background-color: lightblue;
+        border: solid rgb(112, 112, 211) .8em;
+        position:relative;
+        left: 38%;
+        bottom: .2em;
+        
+    
+    }
 
-h2{
-    font-family: 'Times New Roman', 'calibri';
-    font-size: 2.2vw;
-}
+    .currentconditions img{
+        display: inline-block;
+        width: 5em;
+        height: auto;  
+        position: relative;
+        left: .5em;     
+    }
+    
+    .currentconditions p{
+        display: inline-block;
+        position: relative;
+        bottom: 1.3em;
+        left: 1em;
+    }
 
-h3{
-    font-family: 'Times New Roman', 'calibri';
-    font-size: 1.7vw;
-}
+    
+    nav {
+        background-color: greenyellow;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -1em;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }    
+  
+    .container2{
+        max-width: 52em;
+        position: relative;
+        left: 3em;
+        right: 3em;
+    
+    }
+    
+    .city{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        
+    } 
+    .summary {
+        
+       
+        background-image: url(city.jpg);
+        background-size: 88%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .summarytable{
+        position: relative;
+        top: 1em;
+        left: 4em;
+        max-width: 10em;  
+        max-height: 12em; 
+        padding-bottom: 1em;    
+        background-color: plum;
+        opacity: .7;
+        Border: solid rgb(92, 46, 92) 1em;
+    }
+    
+    .summarytable{
+        text-align:center;
+        font-size: 2vw;
+    }
+    
+    .r1{
+        text-align: right;
+        color: rgb(250, 250, 7);
+        opacity: 5;
+        font-size: 2vw;
+        font-family: 'Arial'
+    }
+    
+    .r2{
+        text-align: left;
+        color: rgb(255, 255, 255);
+        opacity: 5;
+        font-size: 2vw;
+        font-family: 'Arial'
+    }
+    .forecast{
+        Max-width: 46em;
+        
+        background-color: lightskyblue;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        border-bottom: 0em;
+     }
+     
+     .forecast h3{
+         text-align: center;
+     
+     }
+     
+     .forecasttable{
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .forecasttable th, .forecasttable td{
+         width: 5em;
+         text-align: center;
+         border: solid black .1em;
+     }
+    
+     .articles{
+        min-height: 15em;
+        max-width: 46em;
+        background-color: plum;
+        Position: relative;
+        top: -1.15em;
+    }
+    
+    .heading {
+        
+        Max-width: 420px;
+        height: auto;
+        position: relative;
+        left: 2em;
+        top: .1em;
+    }
+    .articlesummary{
+        display: inline-block;
+        max-width: 18em;
+        height: auto;
+        position: relative;
+        right: .5em;
+        bottom: 2.2em;
+    }
+    
+    
+    
+    .rightimage{
+        display: inline-block;
+        max-width: 18em;
+        height: auto;
+        float: right;
+        position: relative;
+        top: 8em;
+        left: -1em;
+    }
+    
+    
+    .mapci{
 
-
-.container{
-    max-width: 69em;
-
-}
-
-header{
-    background-color: skyblue;
-    Color:white;
-    margin: 0em;
-    border: 0em;
-    border: solid black 1em;
-    position: relative;
-    left: .5em;
-    right: .5em;
-    max-width: 75em;
+        min-height: auto;
+        max-width: 46em;
+        background-color: lightgreen;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -1.2em;
+    }
+    
+    .imgleft{
+        display: inline-block;
+        max-width: 17em;
+        height: auto;
+        position: relative;
+        bottom: -3em;
+        left: 2em;
+    
+    }
+    
+    .contact1{
+        max-width: 10em;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        
+        left: 3em;
+    }
+    
+    .map{
+        display: inline-block;
+        max-width: 13em;
+        height: auto;
+        position: relative;
+        left: 4em;
+        top: 5em;
+        
+    }
+    
+    .foot{
+        max-width: 46em;
+        background-color: rgb(101, 141, 101);
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        top: -2.2em;
+        
+    }
+    
+    .footline{
+        text-align: center;
+    }
     
 }
-
-header img{
-    width: 10em;
-    height: auto;
-    display: inline-block;
-    Margin-left: 13%;
-    vertical-align: center;
-}
-
-.headertext {
-    display: inline-block;
-    vertical-align: center;
-    margin-left: 17%;
-    
-    
-}
-
-.subheading{
-    margin-left: 17%;
-    margin-top: 0%;
-}
-
-.currentconditions{
-    Display: inline-block;
-    vertical-align: center;
-    min-width: 10em;
-    Background-color: lightblue;
-    border: solid rgb(112, 112, 211) .8em;
-    position:relative;
-    left: 9%; 
-    bottom: .2em;
-    
-
-}
-
-.currentconditions p{
-    display: inline-block;
-    position: relative;
-    bottom: 1.3em;
-}
-
-nav {
-    background-color: greenyellow;
-    border: solid black 1em;
-    max-width: 75em;
-    position: relative;
-    left: .5em;
-    right: .5em;
-
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.currentconditions img{
-    width: 5em;
-    height: auto;
-   
-}
-
-
-.city{
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    position: relative;
-    left: .5em;
-    right: .5em;
-    max-width: 75em;
-    border: 1em;
-}
-
-.container2 {
-    
-    position: relative;
-    
-    left: 3em;
-    right: 8em;
-    max-width: 67em;
-}
-
-.summary {
-    
-   
-    background-image: url(city.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 30em;
-    max-width: 65em;
-}
-
-.summarytable{
-    position: relative;
-    top: 4em;
-    left: 4em;
-    max-width: 10em;  
-    max-height: 12em; 
-    padding-bottom: 1em;    
-    background-color: plum;
-    opacity: .5;
-    Border: solid rgb(92, 46, 92) 1em;
-}
-
-.summarytable{
-    text-align:center;
-   
-}
-
-.r1{
-    text-align: right;
-    color: rgb(250, 250, 7);
-    opacity: 5;
-   
-   
-}
-
-.r2{
-    text-align: left;
-    color: rgb(255, 255, 255);
-    opacity: 5;
-   
-}
-.forecast{
-   Max-width: 65em;
-   border: solid black .2em;
-   background-color: lightskyblue;
-}
-
-.forecast h3{
-    text-align: center;
-
-}
-
-.forecasttable{
-    margin-left: auto;
-    margin-right: auto;
-}
-.forecasttable th, .forecasttable td{
-    width: 5em;
-    text-align: center;
-    border: solid black .1em;
-}
-
-.articles{
-    min-height: 15em;
-    max-width: 65em;
-    border: solid black .3em;
-    background-color: plum;
-}
-
-.heading {
-    
-    Max-width: 420px;
-    height: auto;
-    position: relative;
-    left: 2em;
-    top: .1em;
-}
-.articlesummary{
-    display: inline-block;
-    max-width: 25em;
-    height: auto;
-    position: relative;
-    right: .5em;
-    bottom: 2.2em;
-}
-
-
-
-.rightimage{
-    display: inline-block;
-    max-width: 22em;
-    height: auto;
-    float: right;
-    position: relative;
-    top: 3em;
-    left: -1em;
-}
-
-
-
-
-
-
-.mapci{
-    Width: 65em;
-    max-height: 15em;
-    background-color: lightgreen;
-    margin-top: 5em;
-    margin-bottom: 0em;
-    border: solid black .2em;
-}
-
-.imgleft{
-    display: inline-block;
-    max-width: 20em;
-    height: auto;
-    position: relative;
-    bottom: 0em;
-    left: 4em;
-
-}
-
-.contact1{
-    max-width: 20em;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    bottom: 10em;
-    left: 7em;
-}
-
-.map{
-    display: inline-block;
-    max-width: 15em;
-    height: auto;
-    position: relative;
-    left: 10em;
-    
-}
-
-.foot{
-    max-width: 65em;
-    background-color: rgb(101, 141, 101);
-    margin-top: 0em;
-    border: solid black .2em;
-}
-
-.footline{
-    text-align: center;
-}
-}
-

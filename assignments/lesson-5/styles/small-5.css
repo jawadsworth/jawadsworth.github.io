@@ -1,262 +1,265 @@
-@media only screen and (min-device-width:320px) and (max-device-width:480px){
+@media only screen and (max-width: 600px){
 
-body{
-    font-family: 'Times New Roman', 'calibri';
-    font-size: 2vw;
-}
-
-h1{
-    font-family: 'Tangerine', 'sans-serif';
-    font-size: 5vw;
-}
-
-.container{
-    width: 46em;
-   
-}
-
-header{
-    background-color: skyblue;
-    Color:white;
-    margin: 0em;
-    border: 0em;
-    border: solid black 1em;
-    position: relative;
-    left: .5em;
-    right: .5em;
-    max-height: 10em;
-    max-width: 56em;
+    body{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.5vw;
+    }
     
-}
-
-header img{
-    max-width: 7em;
-    height: auto;
+    h1{
+        font-family: 'Tangerine', 'sans serif';
+        font-size: 2.5vw;
+    }
     
-    vertical-align: center;
-   
-    position: relative;
-    left: 8.5em;
-    top: 1em;
-}
-
-.headertext {
-    display: inline-block;
-    vertical-align: center;
-    position: relative;
-    left: 11.5em;
-    top: 1em;
+    h2{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 2.2vw;
+    }
     
+    h3{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.7vw;
+    }
     
+    .container{
+        width: 62em;
+        position: relative;
+        left: 1.5em;
+        right: -1em;
+       
+    }
     
+    header{
+        background-color: skyblue;
+        Color:white;
+        margin: 0em;
+        border: 0em;
+        padding: 0em;
+        
+        max-height: 10em;
+        max-width: 62em;
+        
+    }
     
-}
-
-.subheading{
-    margin-left: 17%;
-    margin-top: 0%;
-}
-
-.currentconditions{
-    visibility: hidden;
+    header img{
+        max-width: 7em;
+        height: auto;
+        
+        vertical-align: center;
+       
+        position: relative;
+        left: 8.5em;
+        top: 1em;
+    }
     
-
-}
-
-.currentconditions p{
-    visibility: hidden;
-}
-
-nav {
-    background-color: greenyellow;
-    border: solid black 1em;
+    .headertext {
+        display: inline-block;
+        vertical-align: center;
+        position: relative;
+        left: 20em;
+        top: 1em;
+        
+        
+        
+        
+    }
     
-    position: relative;
-    left: .5em;
-    right: .5em;
-
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.currentconditions img{
-    visibility: hidden
-   
-   
-}
-
-
-.city{
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    position: relative;
-    left: .5em;
-    right: .5em;
-    max-width: 56em;
-    border: 1em;
-}
-
-.container2 {
-    position: relative;
-    
-    right: 2em;
-    left: 2em;
-    
-    max-width: 56em;
-}
-
-.summary {
+    .subheading{
+        margin-left: 17%;
+        margin-top: 0%;
+    }
     
    
-    background-image: url(city.jpg);
-    background-size: 85%;
-    background-repeat: no-repeat;
-    max-height: 20em;
-    max-width: 56em;
-}
-
-.summarytable{
-    position: relative;
-    top: 2em;
-    left: 4em;
-    max-width: 10em;  
-    max-height: 12em; 
-    padding-bottom: 1em;    
-    background-color: plum;
-    opacity: .7;
-    Border: solid rgb(92, 46, 92) 1em;
-}
-
-.summarytable{
-    text-align:center;
-    font-size: 2vw;
-}
-
-.r1{
-    text-align: right;
-    color: rgb(250, 250, 7);
-    opacity: 5;
-    font-size: 2vw;
-    font-family: 'Arial'
-}
-
-.r2{
-    text-align: left;
-    color: rgb(255, 255, 255);
-    opacity: 5;
-    font-size: 2vw;
-    font-family: 'Arial'
-}
-.forecast{
-   max-width: 0em;
-   max-height: 0em;
-   border: solid black .2em;
-   background-color: lightskyblue;
-   margin-top:3em;
-   visibility: hidden;
-}
-
-.forecast h3{
-    text-align: center;
-
-}
-
-.forecasttable{
-    margin-left: auto;
-    margin-right: auto;
-}
-.forecasttable th, .forecasttable td{
-    width: 5em;
-    text-align: center;
-    border: solid black .1em;
-}
-
-.articles{
-    min-height: 15em;
-    max-width: 39em;
-    border: solid black .2em;
-    background-color: plum;
-}
-
-.heading{
-    position: relative;
-    left: 3em;
-}
-
-.heading h2{
-    font-size: 4vw;
-}
-
-.heading h3{
-    font-size: 3vw;
-}
-
-.articlesummary{
-    display: block;
-    max-width: 420px;
-    height: auto;
-    position: relative;
-    left: 1.3em;
-}
-
-.rightimage{
-    display: block;
-    max-width: 25em;
-    height: auto;
-    position: relative;
-    right: -7em;
+    .currentconditions{
+        visibility: hidden;
+        
     
-}
-
-.mapci{
-    max-width: 39em;
-    min-height: 25em;
+    }
     
-    background-color: lightgreen;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    border: solid black .2em;
-}
+    .currentconditions p{
+        visibility: hidden;
+    }
 
-.imgleft{
-    visibility: hidden;
-    width: 1px;
-    height: auto;
+    .currentconditions img{
+        visibility: hidden
+    }
 
-}
-
-.contact1{
-    display: block;
-    position: relative;
-    left: 10em;
+    nav {
+        background-color: greenyellow;
+        border: 0em;
+        padding: 0em;
+    }
     
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }    
+  
+    .container2{
+        max-width: 62em;
+        position: relative;
+        left: 3em;
+        right: 3em;
     
-}
-
-.map{
-    display: block;
-    max-width: 20em;
-    height: auto;
-    position: relative;
-    left: 6.5em;
-    margin:1em;
+    }
     
-}
+    .city{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        
+    } 
+    .summary {
+        
+       
+        background-image: url(city.jpg);
+        background-size: 88%;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .summarytable{
+        position: relative;
+        top: 2em;
+        left: 4em;
+        max-width: 10em;  
+        max-height: 12em; 
+        padding-bottom: 1em;    
+        background-color: plum;
+        opacity: .7;
+        Border: solid rgb(92, 46, 92) 1em;
+    }
+    
+    .summarytable{
+        text-align:center;
+        font-size: 2vw;
+    }
+    
+    .r1{
+        text-align: right;
+        color: rgb(250, 250, 7);
+        opacity: 5;
+        font-size: 2vw;
+        font-family: 'Arial'
+    }
+    
+    .r2{
+        text-align: left;
+        color: rgb(255, 255, 255);
+        opacity: 5;
+        font-size: 2vw;
+        font-family: 'Arial'
+    }
+    .forecast{
+       max-width: 0em;
+       max-height: 0em;
+       border: solid black .2em;
+       background-color: lightskyblue;
+       margin-top:3em;
+       visibility: hidden;
+    }
+    
+    .forecast h3{
+        text-align: center;
+    
+    }
+    
+    .forecasttable{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .forecasttable th, .forecasttable td{
+        width: 5em;
+        text-align: center;
+        border: solid black .1em;
+    }
+    
+    .articles{
+       min-height: 16em;
+       max-width: 55em;
+       border: 0em;
+       margin: 0em;
+       padding: 0em;
+        background-color: plum;
+    }
+    
+    .heading{
+        position: relative;
+        left: 3em;
+    }
+    
+    .heading h2{
+        font-size: 4vw;
+    }
+    
+    .heading h3{
+        font-size: 3vw;
+    }
+    
+    .articlesummary{
+        display: block;
+        position: relative;
+        left: 1.3em;
+        
+    }
+    
+    .rightimage{
+        display: block;
+        max-width: 25em;
+        height: auto;
+        position: relative;
+        right: -7em;
+        
+    }
+    
+    .mapci{
 
-.foot{
-    max-width: 39em;
-    background-color: rgb(101, 141, 101);
-    margin-top: 0em;
-    border: solid black .2em;
-}
-
-.footline{
-    text-align: center;
-}
-}
+        min-height: 25em;
+        max-width: 55em;
+        background-color: lightgreen;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        border: 0em;
+        padding: 0em;
+    }
+    
+    .imgleft{
+        visibility: hidden;
+        width: 1px;
+        height: auto;
+    
+    }
+    
+    .contact1{
+        display: block;
+        position: relative;
+        left: 10em;
+        
+        
+    }
+    
+    .map{
+        display: block;
+        max-width: 20em;
+        height: auto;
+        position: relative;
+        left: 6.5em;
+        margin:1em;
+        top: -.5em;
+        
+    }
+    
+    .foot{
+        max-width: 55em;
+        background-color: rgb(101, 141, 101);
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    
+    .footline{
+        text-align: center;
+    }
+}    

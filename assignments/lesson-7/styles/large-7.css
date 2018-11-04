@@ -94,9 +94,14 @@
         left: 1em;
     }
 
+    nav button{
+        display: none;
+        
+    }
+    
     nav {
         background-color: greenyellow;
-        Height: 2em;
+        Height: 30px;
         border: 0em;
         padding: 0em;
         position: relative;
@@ -110,15 +115,11 @@
     
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         list-style: none;
         position: relative;
-        top: .5em;
+        top: 7px;
     }    
-
-    nav button{
-        display: none;
-        
     }
   
     .container2{

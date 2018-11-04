@@ -82,6 +82,60 @@ nav button {
     color: #555;
     
 }
+
+
+nav {
+    background-color: greenyellow;
+    Max-width: 54em;
+    Height: 30px;
+    border: 0em;
+    padding: 0em;
+    position: relative;
+    top: -1em;
+    background: #e6f0a3; /* Old browsers */
+    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    top: 7px;
+}   
+
+
+     
+
+
+img:hover {
+    box-shadow: 5px 5px 10px
+    gray;
+}
+
+@media only screen and (max-width: 37.4em) {
+
+.city{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    right: 25px;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1rem;
+    color: #555;
+    
+}
 nav {
     background-color: greenyellow;
     font-family: verdana, sans-serif;
@@ -112,33 +166,56 @@ nav ul li a {
 .x:hover {background-color: rgba(94, 79, 79, 0.4);)}
 nav ul li .active {background-color: rgba(0,0,0,0.2); color: #fff;}
 
-
-
 nav ul.hide {display: none;}
-
-img:hover {
-    box-shadow: 5px 5px 10px
-    gray;
-}
-
-@media only screen and (max-width: 37.4em) {
-
-.city{
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    position: relative;
-    right: 25px;
-    
-}
 
 }
 
 @media only screen
     and (min-width: 37.5em)
     and (max-width: 63.9em) {
-    
+        
+        nav button {
+            margin: .2rem 2%;
+            background-color: transparent;
+            border:none;
+            font-size: 1rem;
+            color: #555;
+            
+        }
+        nav {
+            background-color: greenyellow;
+            font-family: verdana, sans-serif;
+            border: 0em;
+            padding: 0em;
+            background: #e6f0a3; /* Old browsers */
+            background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+            max-width: 54em;
+            position: relative;
+            top: 0em;
+        }
+        
+        nav ul {
+           list-style-type: none;
+           padding: 0;
+           margin: 0;
+        }    
+        
+        nav ul li a {
+            display: block;
+            padding: .2rem 2%;
+            text-decoration: none;
+            color: #000;
+            border-top:1px solid rgba(0,0,0,0.3);
+        }
+        
+        .x:hover {background-color: rgba(94, 79, 79, 0.4);)}
+        nav ul li .active {background-color: rgba(0,0,0,0.2); color: #fff;}
+        
+        nav ul.hide {display: none;}
+
         .city{
             text-align: center;
             padding: 0px;
@@ -190,6 +267,12 @@ img:hover {
 
 @media only screen 
     and (min-width: 64em) {
+
+        nav button{
+            display: none;
+            
+        }
+
         .city{
             text-align: center;
             padding: 0px;

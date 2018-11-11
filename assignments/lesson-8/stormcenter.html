@@ -40,16 +40,16 @@
         <label>Full Name (First Last)*:<br>
         <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label><br><br>
         <label>Email Address:<br>
-        <input type="email" placeholder="JohnDoe@gmail.com"></label><br><br>
+        <input type="email" name="email" placeholder="JohnDoe@gmail.com"></label><br><br>
         <label>Phone Number*:<br>
-        <input type="tel" required></label><br><br>
+        <input type="tel" name="pnumber" required></label><br><br>
         <label>Zip Code*:<br>
-        <input type="number" required></label><br><br>
+        <input type="number" name="zcode" required></label><br><br>
         <label>Storm Date:<br>
-        <input type="date"></label><br><br>
+        <input type="date" name="date"></label><br><br>
         <label>Storm Severity (1-10):</label><br>
         <div class="stormrange">
-        <input type="range" id="rating" placeholder="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value"><br>
+        <input type="range" name="stormrange" id="rating" placeholder="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value"><br>
         <span id="ratingvalue">5</span>
         </div><br><br>
         <label>Storm Region:<br>
@@ -59,7 +59,7 @@
             <option value="sodasprings">Soda Springs</option>
             <option value="fishhaven">Fish Haven</option>
         </select></label><br><br>
-        
+               
         <fieldset>
         <legend>User In-danger Level</legend>
         <label><input type="radio" name="userintrouble" value="yes">Yes</label>
@@ -67,7 +67,9 @@
         <label><input type="radio" name="userintrouble" value="maybe">Maybe</label>  
         </fieldset> <br>   
 
-
+        <label>Additional Information or Comments:
+            <textarea name="comment" rows="4" cols="50" placeholder="Enter Text Here..."></textarea>
+        </label>
             
         
         <input type="submit" value="Submit Storm Information" class="ibutton">

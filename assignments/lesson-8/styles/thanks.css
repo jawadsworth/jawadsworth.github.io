@@ -1,0 +1,221 @@
+
+
+    body{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.7vw;
+    }
+    
+    h1{
+        font-family: 'Tangerine', 'sans serif';
+        font-size: 3em;
+    }
+    
+    h2{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.5em;
+    }
+    
+    h3{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1em;
+    }
+
+.container{
+    width: 62em;
+    position: relative;
+    left: 1.5em;
+    right: -3em;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    Color:white;
+    margin: 0em;
+    border: 0em;
+    padding: 0em;
+    
+    max-height: 10em;
+    max-width: 54em;
+   
+    
+}
+
+header img{
+    max-width: 7em;
+    max-height: 5em;
+    position: relative;
+    top: 1em;    
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: center; 
+}
+
+.subheading{
+    margin-left: 17%;
+    position: relative;
+    bottom: 2em;
+}
+
+
+.currentconditions{
+    visibility: hidden;
+    
+
+}
+
+.currentconditions p{
+    visibility: hidden;
+}
+
+.currentconditions img{
+    visibility: hidden
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1rem;
+    color: #555;
+    
+}
+
+
+
+
+     
+
+@media only screen and (max-width: 600px) {
+
+.city{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 8em;
+    position: relative;
+    right: .7em;
+    
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1rem;
+    color: #555;
+    
+}
+nav {
+    background-color: greenyellow;
+    font-family: verdana, sans-serif;
+    border: 0em;
+    padding: 0em;
+    background: #e6f0a3; /* Old browsers */
+    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+    max-width: 54em;
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}    
+
+nav ul li a {
+    display: block;
+    padding: .2rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+
+.x:hover {background-color: rgba(94, 79, 79, 0.4);)}
+nav ul li .active {background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul.hide {display: none;}
+
+}
+
+          
+
+@media only screen 
+    and (min-width: 600.1px) {
+
+        nav button{
+            display: none;
+            
+        }
+        
+        nav {
+            background-color: greenyellow;
+            max-width: 54em;
+            Height: 30px;
+            border: 0em;
+            padding: 0em;
+            position: relative;
+            top: -1em;
+            background: #e6f0a3; /* Old browsers */
+            background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            position: relative;
+            top: 7px;
+        }    
+
+        .city{
+            font-size: 8em;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            position: relative;
+            right: .5em;
+           
+        }
+            .currentconditions{
+                visibility: visible;
+                Display: inline-block;
+                vertical-align: center;
+                min-width: 10em;
+                Background-color: lightblue;
+                border: solid rgb(112, 112, 211) .8em;
+              
+                
+            
+            }
+        
+            .currentconditions img{
+                visibility: visible;
+                display: inline-block;
+                width: 5em;
+                height: auto;  
+                position: relative;
+                left: .5em;     
+            }
+            
+            .currentconditions p{
+                visibility: visible;
+                display: inline-block;
+                position: relative;
+                bottom: 1.3em;
+                left: 1em;
+            }
+            
+    }
+
+    

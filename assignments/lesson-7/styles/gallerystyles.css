@@ -74,42 +74,6 @@ header img{
 .currentconditions img{
     visibility: hidden
 }
-nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border:none;
-    font-size: 1rem;
-    color: #555;
-    
-}
-
-
-nav {
-    background-color: greenyellow;
-    Max-width: 54em;
-    Height: 30px;
-    border: 0em;
-    padding: 0em;
-    position: relative;
-    top: -1em;
-    background: #e6f0a3; /* Old browsers */
-    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    position: relative;
-    top: 7px;
-}   
-
-
-     
-
 
 img:hover {
     box-shadow: 5px 5px 10px
@@ -272,6 +236,29 @@ nav ul.hide {display: none;}
             display: none;
             
         }
+        
+        nav {
+            background-color: greenyellow;
+            Height: 30px;
+            Max-width: 54.01em;
+            border: 0em;
+            padding: 0em;
+            position: relative;
+            top: -1em;
+            background: #e6f0a3; /* Old browsers */
+            background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            position: relative;
+            top: 7px;
+        }  
 
         .city{
             text-align: center;

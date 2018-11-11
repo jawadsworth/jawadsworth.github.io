@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+        <title>Storm Center</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="styles/Normalize.css">
+        <link rel="stylesheet" href="styles/stormcenter.css">
+    </head>
+    <Body class="container">
+            <header>
+                <img class='he' src="images/Rain.png" alt="Sun & Clouds">
+                <div class="headertext">
+                    <h1>WeatherGoodorBad</h1>
+                    <div class="subheading"><h2>How will your weather be?</h2></div>
+                </div>
+                <div class="currentconditions">
+                    <img src="images/sun.png" alt="Current condition weather icon">
+                        <p>Sunny</p>
+                    </div>
+            </header>
+                <nav>
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a  href="x">Home</a></li>
+                        <li><a  href="preston-8.html">Preston</a></li>
+                        <li><a  href ="x">Soda Springs</a></li>
+                        <li><a  href ="x">Fish Haven</a></li>
+                        <li><a  class="active" href ="x">Storm Center</a></li>
+                        <li><a  href ="gallery-8.html">Gallery</a></li>
+                    </ul>
+                </nav> 
+            <h1 class="city">Storm Center</h1> 
+    
+    <form method="get" action="thanks.html">
+        <h2>Submit Information Regarding Storm of Concern</h2>
+        
+        <label>Full Name (First Last)*:<br>
+        <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label><br><br>
+        <label>Email Address:<br>
+        <input type="email" placeholder="JohnDoe@gmail.com"></label><br><br>
+        <label>Phone Number*:<br>
+        <input type="tel" required></label><br><br>
+        <label>Zip Code*:<br>
+        <input type="number" required></label><br><br>
+        <label>Storm Date:<br>
+        <input type="date"></label><br><br>
+        <label>Storm Severity (1-10):</label><br>
+        <div class="stormrange">
+        <input type="range" id="rating" placeholder="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value"><br>
+        <span id="ratingvalue">5</span>
+        </div><br><br>
+        <label>Storm Region:<br>
+        <select name="region">
+            <option value="">Select Region</option>
+            <option value="preston">Preston</option>
+            <option value="sodasprings">Soda Springs</option>
+            <option value="fishhaven">Fish Haven</option>
+        </select></label><br><br>
+        
+        <fieldset>
+        <legend>User In-danger Level</legend>
+        <label><input type="radio" name="userintrouble" value="yes">Yes</label>
+        <label><input type="radio" name="userintrouble" value="no">No</label>
+        <label><input type="radio" name="userintrouble" value="maybe">Maybe</label>  
+        </fieldset> <br>   
+
+
+            
+        
+        <input type="submit" value="Submit Storm Information" class="ibutton">
+    </form>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/rating.js"></script>
+    </Body>
+</html>

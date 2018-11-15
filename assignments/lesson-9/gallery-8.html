@@ -1,0 +1,66 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+        <title>Gallery</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="styles/Normalize.css">
+        <link rel="stylesheet" href="styles/gallerystyles.css">
+    </head>
+    <Body class="container">
+        <header>
+            <img class='he' src="images/Rain.png" alt="Sun & Clouds">
+            <div class="headertext">
+                <h1>WeatherGoodorBad</h1>
+                <div class="subheading"><h2>How will your weather be?</h2></div>
+            </div>
+            <div class="currentconditions">
+                <img src="images/sun.png" alt="Current condition weather icon">
+                    <p>Sunny</p>
+                </div>
+        </header>
+            <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a  href="x">Home</a></li>
+                    <li><a  href="preston-8.html">Preston</a></li>
+                    <li><a  href ="x">Soda Springs</a></li>
+                    <li><a  href ="x">Fish Haven</a></li>
+                    <li><a  href ="stormcenter.html">Storm Center</a></li>
+                    <li><a  class="active" href ="x">Gallery</a></li>
+                </ul>
+            </nav>   
+        <h1 class="city">Gallery</h1>
+
+        <div class="grids">
+            <div>
+                <img src="images/Arizona.jpg" alt="Desert" class="picture">
+                <p>Feeling the Heat of the Desert.</p>
+            </div>
+            <div>
+                <img src="images/fall.jpg" alt="Autumn" class="picture">
+                <p>The colors of cooling.</p>
+            </div>
+            <div>
+                <img src="images/lightning.jpg" alt="Lightning" class="picture">
+                <p>Lighting up the night</p>
+            </div>
+            <div>
+                <img src="images/Rainstorm.jpg" alt="Rainstorm" class="picture">
+                <p>Singing in the Rainstorm</p>
+            </div>
+            <div>
+                <img src="images/Snowstorm.jpg" alt="Snowstorm" class="picture">
+                <p>Walking in a Winter Wonderland</p>
+            </div>
+            <div>
+                <img src="images/tornado.jpg" alt="Tornado" class="picture">
+                <p>In the Eye of the Storm</p>
+            </div>
+        </div>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+    </Body>
+</html>

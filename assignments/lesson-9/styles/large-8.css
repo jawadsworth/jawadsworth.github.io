@@ -1,0 +1,331 @@
+@media only screen and (min-width: 600.1px){
+
+    body{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 1.8vw;
+    }
+    
+    h1{
+        font-family: 'Tangerine', 'sans serif';
+        font-size: 2.8vw;
+    }
+    
+    h2{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 2.2vw;
+    }
+    
+    h3{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 2vw;
+    }
+    
+    .container{
+        width: 52em;
+        position: relative;
+        left: 1.5em;
+        right: -1em;
+       
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: skyblue;
+        Color:white;
+        margin: 0em;
+        border: 0em;
+        padding: 0em;
+        
+        max-height: 10em;
+        max-width: 62em;
+        
+    }
+    
+    header img{
+        max-width: 7em;
+        max-height: 5em;
+        position: relative;
+        top: 1em;
+        
+        
+    }
+    
+    .headertext {
+        display: inline-block;
+        vertical-align: center;
+        
+        
+        
+        
+        
+    }
+    
+    .subheading{
+        margin-left: 17%;
+        margin-top: 0%;
+    }
+    
+    
+
+    .currentconditions{
+        Display: inline-block;
+        vertical-align: center;
+        min-width: 10em;
+        Background-color: lightblue;
+        border: solid rgb(112, 112, 211) .8em;
+      
+        
+    
+    }
+
+    .currentconditions img{
+        display: inline-block;
+        width: 5em;
+        height: auto;  
+        position: relative;
+        left: .5em;     
+    }
+    
+    .currentconditions p{
+        display: inline-block;
+        position: relative;
+        bottom: 1.3em;
+        left: 1em;
+    }
+
+    nav button{
+        display: none;
+        
+    }
+    
+    nav {
+        background-color: greenyellow;
+        Height: 30px;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -1em;
+        background: #e6f0a3; /* Old browsers */
+        background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        position: relative;
+        top: 7px;
+    }    
+    }
+  
+    .container2{
+        max-width: 52em;
+        position: relative;
+        left: 3em;
+        right: 3em;
+    
+    }
+    
+    .city{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        
+    } 
+   
+    .weather{
+        display: flex;
+        max-width: 42em;
+        position: relative;
+        left: 3em;
+        right: 3em;
+    }
+    .summary img{
+        width: 46em;
+        
+    }
+    
+    .summarytable{
+        position: relative;
+        top: -14.3em;
+        left: 4em;
+        max-width: 13em;  
+        max-height: 12em; 
+        padding-bottom: 1em;    
+        background-color: plum;
+        opacity: .8;
+        Border: solid rgb(92, 46, 92) 1em;
+    }
+    
+    .summarytable{
+        text-align:center;
+        font-size: 2vw;
+       
+    }
+    
+    .r1{
+        text-align: right;
+        color: rgb(250, 250, 7);
+        opacity: 1;
+        font-size: 2vw;
+        font-family: 'Arial'
+    }
+    
+    .r2{
+        text-align: left;
+        color: rgb(255, 255, 255);
+        opacity: 5;
+        font-size: 2vw;
+        font-family: 'Arial';
+        white-space: nowrap;
+    }
+
+    
+
+    .inputbox{
+        width: 2.9em;
+        white-space: nowrap;
+    }
+
+    .windchill{
+        position: relative;
+        bottom: 20em;
+        border: solid black;
+        left: 10em;
+        top: -16em;
+        max-width: 13em;  
+        max-height: 12em; 
+        padding-bottom: 1em;    
+        background-color: plum;
+        opacity: .8;
+        Border: solid rgb(92, 46, 92) 1em;
+    }
+
+    .forecast{
+        Max-width: 46em;
+        
+        background-color: lightskyblue;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        border-bottom: 0em;
+     }
+     
+     .forecast h3{
+         text-align: center;
+     
+     }
+     
+     .forecasttable{
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .forecasttable th, .forecasttable td{
+         width: 5em;
+         text-align: center;
+         border: solid black .1em;
+     }
+    
+     .articles{
+        min-height: 15em;
+        max-width: 46em;
+        background-color: plum;
+        Position: relative;
+        top: -22em;
+    }
+    
+    .heading {
+        
+        Max-width: 420px;
+        height: auto;
+        position: relative;
+        left: 2em;
+        top: .1em;
+    }
+    .articlesummary{
+        display: inline-block;
+        max-width: 18em;
+        height: auto;
+        position: relative;
+        right: .5em;
+        bottom: 2.2em;
+    }
+    
+    
+    
+    .rightimage{
+        display: inline-block;
+        max-width: 18em;
+        height: auto;
+        float: right;
+        position: relative;
+        top: 8em;
+        left: -1em;
+    }
+    
+    
+    .mapci{
+
+        min-height: auto;
+        max-width: 46em;
+        background-color: lightgreen;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -21.95em;
+    }
+    
+    .imgleft{
+        display: inline-block;
+        max-width: 17em;
+        height: auto;
+        position: relative;
+        bottom: -3em;
+        left: 2em;
+    
+    }
+    
+    .contact1{
+        max-width: 10em;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        
+        left: 3em;
+    }
+    
+    #map{
+        display: inline-block;
+        max-width: 13em;
+        height: auto;
+        position: relative;
+        left: 4em;
+        top: 5em;        
+        height: 20em;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+         
+        
+    }
+    
+    .foot{
+        max-width: 46em;
+        background-color: rgb(101, 141, 101);
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        top: -22.95em;
+        
+    }
+    
+    .footline{
+        text-align: center;
+    }
+    
+}

@@ -1,5 +1,5 @@
 var weatherRequest = new XMLHttpRequest();
-var apiURL = '//api.openweathermap.org/data/2.5/weather?id=5061036&units=imperial&APPID=860bb90544dca91f036238da81d95e46';
+var apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5061036&units=imperial&APPID=860bb90544dca91f036238da81d95e46';
 
 
 
@@ -32,7 +32,7 @@ weatherRequest.onload = function () {
 }
 
 var weatherRequest2 = new XMLHttpRequest();
-var apiURL2 = '//api.openweathermap.org/data/2.5/forecast?id=5061036&units=imperial&APPID=860bb90544dca91f036238da81d95e46';
+var apiURL2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5061036&units=imperial&APPID=860bb90544dca91f036238da81d95e46';
 
 weatherRequest2.open('GET',apiURL2, true);
 weatherRequest2.responseType = 'text';

@@ -175,12 +175,14 @@
     /*Styling for the Home page*/
     .grids2{
         grid-template-rows: 1fr;
+        display:inline-block;
+        
     }
 
     .citiesdiv{
         display: inline-block;
         position: relative;
-        left: .5em;
+        left: 0em;
         margin: .04em;
         max-width: 13em;
         min-height: 20em;

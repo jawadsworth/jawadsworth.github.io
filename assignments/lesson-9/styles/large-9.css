@@ -172,6 +172,7 @@
         
     }
 
+    /*Styling for the Home page*/
     .grids2{
         grid-template-rows: 1fr;
     }
@@ -179,15 +180,16 @@
     .citiesdiv{
         display: inline-block;
         position: relative;
-        left: 0em;
-        margin: .1em;
-        max-width: 13.3em;
+        left: .5em;
+        margin: .04em;
+        max-width: 13em;
         min-height: 20em;
+
     }
 
    #fh{
        min-height: 9em;
-       padding-top: 2.6em;
+       padding-top: 2.4em;
    }
 
    #years4, #pop4, #arf4{

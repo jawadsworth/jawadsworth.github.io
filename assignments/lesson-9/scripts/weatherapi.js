@@ -74,7 +74,7 @@ weatherRequest2.onload = function () {
     
     /*Set the weekdays to automatically enter into the Preston page under the forecast section*/
 
-    document.getElementById('day0').innerHTML = weekday[i];
+    document.getElementById('day0').innerHTML = "Day"
     document.getElementById('day1').innerHTML = weekday[i+1];
     document.getElementById('day2').innerHTML = weekday[i+2];
     document.getElementById('day3').innerHTML = weekday[i+3];

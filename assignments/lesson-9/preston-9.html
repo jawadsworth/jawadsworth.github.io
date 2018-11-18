@@ -7,8 +7,8 @@
         <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="styles/Normalize.css">
-        <link rel="stylesheet" href="styles/large-8.css">
-        <link rel="stylesheet" href="styles/small-8.css">
+        <link rel="stylesheet" href="styles/small-9.css">
+        <link rel="stylesheet" href="styles/large-9.css">
        
     </head>
     <body class="container">
@@ -20,18 +20,18 @@
             </div>
             <div class="currentconditions">
                 <img src="images/sun.png" alt="Current condition weather icon">
-                <p>Sunny</p>
+                <p id='soc1'></p>
             </div>
         </header>
         <nav>
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li><a  href="x">Home</a></li>
+                <li><a  href="index.html">Home</a></li>
                 <li><a class="active" href="x">Preston</a></li>
                 <li><a  href ="x">Soda Springs</a></li>
                 <li><a  href ="x">Fish Haven</a></li>
                 <li><a  href ="stormcenter.html">Storm Center</a></li>
-                <li><a  href ="gallery-8.html">Gallery</a></li>
+                <li><a  href ="gallery-9.html">Gallery</a></li>
             </ul>
         </nav>
         <h1 class="city">The Town of Preston</h1>
@@ -47,63 +47,53 @@
                         <table>
                             <tr>
                                 <td class="r1">Currently:</td>
-                                <td class="r2">Sunny</td>                       
+                                <td class="r2" id="soc2"></td>                       
                             </tr> 
                             <tr>
                                 <td class="r1">Temperature:</td>
-                                <td class="r2">76 °F</td>
+                                <td class="r2"><span id="currentTemp"></span> °F</td>
                             </tr>
                             <tr>
                                 <td class="r1">Humidity:</td>
-                                <td class="r2">69%</td>
-                            </tr>
-                            <tr>
-                                <td class="r1">Precipitation:</td>
-                                <td class="r2">0 inches</td>
-                            </tr>
+                                <td class="r2"><span id="hum"></span>%</td>
+                            </tr>                        
                             <tr>
                                 <td class="r1">Wind Speed:</td>
-                                <td class="r2">5 mph</td>
-                            </tr>                           
+                                <td class="r2"><span id="ws"></span> mph</td>
+                            </tr> 
+                            <tr>
+                                <td class="r1">Wind Chill:</td>
+                                <td class="r2"><span id="wc"></span></td>
+                            </tr>                          
                         </table>            
-                    </section>
-                    <div class="windchill">                    
-                        <h2>Calculate Windchill</h2>
-                        Temperature: <input type="text" id="temp" class="inputbox"><br>
-                        Wind Speed: <input type="text" id="speed1" class="inputbox">
-                        <button type="button" onclick="doInputOutput()">Run Windchill</button><br>
-                        Windchill: <output type="text" id="output"></output>
-                           
-
-                        
-                    </div>
+                    </section>        
                 </div>
             </div>
-            <section class="forecast">
-                    <h3>High Temperature Forecast</h3>
-                    <table class="forecasttable">
-                      <thead>
-                        <tr>
-                          <th>Day</th>
-                          <th>Wed</th>
-                          <th>Thu</th>
-                          <th>Fri</th>
-                          <th>Sat</th>
-                          <th>Sun</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+            <div class="forecast">
+                <h3>High Temperature Forecast</h3>
+                <table class="forecasttable">
+                    <thead>
+                    <tr>
+                        <th id="day0">Day</th>
+                        <th id="day1">Wed</th>
+                        <th id="day2">Thu</th>
+                        <th id="day3">Fri</th>
+                        <th id="day4">Sat</th>
+                        <th id="day5">Sun</th>
+                    </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                           <th>Forecast</th>
-                          <td>89&deg;F</td>
-                          <td>87&deg;F</td>
-                          <td>78&deg;F</td>
-                          <td>75&deg;F</td>
-                          <td>72&deg;F</td>
+                          <td id="f1">89&deg;F</td>
+                          <td id="f2">87&deg;F</td>
+                          <td id="f3">78&deg;F</td>
+                          <td id="f4">75&deg;F</td>
+                          <td id="f5">72&deg;F</td>
                         </tr>
-                      </tbody>
-                    </table>
-                  </section>
+                    </tbody>
+                </table>
+            </div>
             <div class="articles">
                 <div class="heading">
                     <h2>Weather in relation to Book of <br>Mormon Geography</h2>
@@ -155,9 +145,9 @@
                 <p id="date"></p>
                 </blockquote>
             </footer>
-            <h3>My Google Maps Demo</h3>
+           
     <!--The div element for the map -->
-    <div id="map"></div>
+    
     
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCWL4CRw8IC0vaVpn7lEeP70mDyPwNqAA&callback=initMap">
@@ -172,6 +162,8 @@
         <script src="scripts/windchill.js"></script>
         <script src="scripts/maps.js"></script>
         <script src="scripts/rating.js"></script>
+        <script src="scripts/weatherapi.js"></script>
+        
        
     </body>
     

@@ -1,0 +1,80 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+        <title>WeatherGoodorBad</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="styles/Normalize.css">
+        <link rel="stylesheet" href="styles/small-9.css">
+        <link rel="stylesheet" href="styles/medium-9.css">
+        <link rel="stylesheet" href="styles/large-9.css">
+       
+    </head>
+    <body class="container">
+        <header>
+            <img class='he' src="images/Rain.png" alt="Sun & Clouds">
+            <div class="headertext">
+                <h1>WeatherGoodorBad</h1>
+                <div class="subheading">How will your weather be?</div>
+            </div>
+            <div class="currentconditions">
+                <img src="images/sun.png" alt="Current condition weather icon">
+                <p id='soc1'></p>
+            </div>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a  class ="active">Home</a></li>
+                <li><a  href ="preston-9.html">Preston</a></li>
+                <li><a  href ="x">Soda Springs</a></li>
+                <li><a  href ="x">Fish Haven</a></li>
+                <li><a  href ="stormcenter.html">Storm Center</a></li>
+                <li><a  href ="gallery-9.html">Gallery</a></li>
+            </ul>
+        </nav>  
+        <h1 class="city">Gallery</h1>
+
+        <div class="grids">
+            <div>
+                <img src="images/Arizona.jpg" alt="Desert" class="picture">
+                <p class = "pic">Feeling the Heat of the Desert.</p>
+            </div>
+            <div>
+                <img src="images/fall.jpg" alt="Autumn" class="picture">
+                <p class = "pic">The colors of cooling.</p>
+            </div>
+            <div>
+                <img src="images/lightning.jpg" alt="Lightning" class="picture">
+                <p class = "pic">Lighting up the night</p>
+            </div>
+            <div>
+                <img src="images/Rainstorm.jpg" alt="Rainstorm" class="picture">
+                <p class="pic">Singing in the Rainstorm</p>
+            </div>
+            <div>
+                <img src="images/Snowstorm.jpg" alt="Snowstorm" class="picture">
+                <p class = "pic">Walking in a Winter Wonderland</p>
+            </div>
+            <div>
+                <img src="images/tornado.jpg" alt="Tornado" class="picture">
+                <p class= 'pic'>In the Eye of the Storm</p>
+            </div>
+        </div>
+        <footer id="foots" class="foot">
+            <blockquote class="footline">
+            <p>@2018 WeatherGoodorBad | Attributions | Jacob Wadsworth</p>
+            <p id="date"></p>
+            </blockquote>
+        </footer>
+        
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/maps.js"></script>
+        <script src="scripts/rating.js"></script>
+        <script src="scripts/weatherapi2.js"></script>
+    </Body>
+</html>

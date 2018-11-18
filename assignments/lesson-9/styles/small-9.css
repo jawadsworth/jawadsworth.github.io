@@ -1,30 +1,31 @@
-@media only screen and (max-width: 600px){
+
 
     body{
-        font-family: 'Times New Roman', 'calibri';
-        font-size: 1.5vw;
-    }
-    
-    h1{
-        font-family: 'Tangerine', 'sans serif';
-        font-size: 2.5vw;
-    }
-    
-    h2{
         font-family: 'Times New Roman', 'calibri';
         font-size: 2vw;
     }
     
+    h1{
+        font-family: 'Tangerine', 'sans serif';
+        font-size: 4.3vw;
+    }
+    
+    h2{
+        font-family: 'Times New Roman', 'calibri';
+        font-size: 4vw;
+    }
+    
     h3{
         font-family: 'Times New Roman', 'calibri';
-        font-size: 1.7vw;
+        font-size: 3vw;
     }
     
     .container{
-        width: 62em;
+        display: inline-block;
+        width: 44em;
         position: relative;
-        left: 1.5em;
-        right: -1em;
+        left: 3em;
+        
        
     }
     
@@ -35,10 +36,9 @@
         Color:white;
         margin: 0em;
         border: 0em;
-        padding: 0em;
-        
+        padding: 0em;        
         max-height: 10em;
-        max-width: 62em;
+        
         
     }
     
@@ -46,7 +46,8 @@
         max-width: 7em;
         max-height: 5em;
         position: relative;
-        top: 1em;    
+        top: 1em;  
+        opacity: .3;  
     }
     
     .headertext {
@@ -55,11 +56,12 @@
     }
     
     .subheading{
-        margin-left: 17%;
-        margin-top: 0%;
+        margin-left: 5%;
+        margin-top: -5%;
+        min-width: 14em;
     }
     
-   
+@media only screen and (max-width: 600px) { 
     .currentconditions{
         visibility: hidden;
         
@@ -115,12 +117,13 @@
 
     nav ul.hide {display: none;}
 
+}
     .container2{
-        max-width: 62em;
+        display: block;
+        max-width: 41em;
         position: relative;
-        left: 3em;
-        right: 3em;
-    
+        left: 1.5em;
+        
     }
     
     .city{
@@ -128,6 +131,7 @@
         padding: 0px;
         margin: 0px;
         border: 0px;
+        font-size: 6vw;
         
     } 
     
@@ -135,13 +139,13 @@
         display: flex;
     }
     .summary img{
-        width: 56em;
+        width: 41em;
         height: auto;
     }
     
     .summarytable{
         position: relative;
-        top: -14.2em;
+        bottom: 18em;
         left: 4em;
         max-width: 13em;  
         max-height: 12em; 
@@ -188,62 +192,47 @@
         left: 10em;
         top: -19em;
         max-width: 13em;  
-        max-height: 12em; 
+        max-height: 15em; 
         padding-bottom: 1em;    
         background-color: plum;
         opacity: .8;
         Border: solid rgb(92, 46, 92) 1em;
-    }
-    .forecast{
-       max-width: 0em;
-       max-height: 0em;
-       border: solid black .2em;
-       background-color: lightskyblue;
-       margin-top:3em;
-       visibility: hidden;
-    }
-    
-    .forecast h3{
-        text-align: center;
-    }
-    
-    .forecasttable{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .forecasttable th, .forecasttable td{
-        width: 5em;
-        text-align: center;
-        border: solid black .1em;
-    }
+    }  
+
     
     .articles{
         min-height: 15em;
         max-width: 56em;
         background-color: plum;
         Position: relative;
-        top: -22em;
+        top: -24.8em;
     }
 
-    .heading{
+    .heading {
+        
+        Max-width: 41;
+        height: auto;
         position: relative;
-        left: 3em;
+        left: 2em;      
     }
-    
-    .heading h2{
-        font-size: 4vw;
-    }
-    
+
     .heading h3{
-        font-size: 3vw;
+        Position: relative;
+        top: -1em;
+        
     }
+   
     
     .articlesummary{
         display: block;
         position: relative;
-        left: 1.3em;
+        left: -1em;
+        top: -1.5em;
+
         
     }
+
+
     
     .rightimage{
         display: block;
@@ -251,26 +240,24 @@
         height: auto;
         position: relative;
         right: -7em;
-        
+        top: -1.5em;
     }
+
     
     .mapci{
 
-        min-height: 25em;
+        min-height: 26em;
         max-width: 56em;
         background-color: lightgreen;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        border: 0em;
-        padding: 0em;
         position: relative;
-        top: -22.95em;
+        bottom: 26.5em;
+        
+        
     }
     
     .imgleft{
-        visibility: hidden;
-        width: 1px;
-        height: auto;
+        
+        display: none;
        
     
     }
@@ -278,20 +265,27 @@
     .contact1{
         display: block;
         position: relative;
-        left: 10em;
-        
+        left: 13em;
         
         
     }
+
+    .contact1 table{
+        position: relative;
+        top: -10px;
+    }
     
-    .map{
+    #map{
         display: block;
-        max-width: 20em;
+       
         height: auto;
         position: relative;
-        left: 6.5em;
-        margin:1em;
-        top: -.5em;
+        max-width: 30em;
+        left: 5.5em;
+        bottom: 1em;
+              
+        height: 15em;
+        width: 80%;
         
     }
     
@@ -302,12 +296,118 @@
         padding: 0px;
         margin: 0px;
         position: relative;
-        top: -23.9em;
+        top: -27.5em;
+       
         
+    }
+
+    /* Adjust relative postion on footer for pages that are not city pages*/
+
+    #foots{
+        position: relative;
+        top: 0em;
+        max-width: 56em;
+        background-color: rgb(101, 141, 101);
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
     }
     
     .footline{
         text-align: center;
     }
     
+    /* Styling for the home page */
+
+    .grids2{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        margin: auto; 
+    }
+
+    .json{
+        text-align: center;
+        justify-self: center;
+    }
+
+    .mottos, .years, .pop, .arf{
+        font-style: italic;
+        font-size: 1.2em;
+    }
+
+    .citiesdiv{
+        display: block;
+        border: solid blue .5em;
+        background-color: skyblue;
+        margin: 1em;        
+        max-width: 20em;       
+        position: relative;
+        left: 11em;
+    }
+
+   
+    .fimage{
+        width: 100%;
+        
+    }
+
+    #fh{
+        min-height: 14em;
+    }
+
+    /*Styling for Stormcenter*/
+
+    form{     
+        Position: relative;
+        left: 6.5em;
+        border: solid black .2em;
+        min-width: 29em;
+        max-width: 30em;
+    }
+
+    input, .ibutton, select{
+        height: 2.7em; 
+        border-radius: 10px;
+     }
+
+     #rating{
+        min-width: 12.9em;
+        max-width: 13em;
+    }
+
+    label, .ibutton, legend{
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .stormrange{
+        display: flex;
+        border: solid lightgray .1em;
+        border-radius: 10px;
+    }
+
+    legend{
+        border-radius: 10px;
+    }
+
+   .stormrange{
+       display: inline-block;
+   }
+
+   #ratingvalue{
+    font-size: 2em;
+    position: relative;
+    left: 3em;
 }
+
+select {
+    height: 45px;
+   
+}
+
+textarea{
+    max-width: 18em;
+    border-radius: 10px;
+}
+
+    

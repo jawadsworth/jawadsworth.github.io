@@ -71,6 +71,13 @@ weatherRequest2.onload = function () {
         weekday[4] = "Thu";
         weekday[5] = "Fri";
         weekday[6] = "Sat";
+        weekday[7] = "Sun";
+        weekday[8] = "Mon";
+        weekday[9] = "Tue";
+        weekday[10] = "Wed";
+        weekday[11] = "Thu";
+        weekday[12] = "Fri";
+
     
     /*Set the weekdays to automatically enter into the Preston page under the forecast section*/
 

@@ -1,0 +1,214 @@
+@media only screen and (min-width: 600.1px){
+
+    .currentconditions{
+        visibility: visible;
+        Display: inline-block;
+        vertical-align: center;
+        min-width: 10em;
+        
+        Background-color: lightblue;
+        
+     header{
+         max-height: 2em;
+     } 
+        
+    
+    }
+
+    .currentconditions img{
+        visibility: visible;
+        display: inline-block;
+        width: 5em;
+        height: auto;  
+        position: relative;
+        left: .5em;  
+        opacity: .3;   
+    }
+    
+    .currentconditions p{
+        visibility: visible;
+        display: inline-block;
+        position: relative;
+        bottom: 1.3em;
+        left: 1em;
+    }
+
+    nav button{
+        display: none;
+        
+    }
+    
+    nav {
+        background-color: greenyellow;
+        Height: 1.8em;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -1em;
+        background: #e6f0a3; /* Old browsers */
+        background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        position: relative;
+        top: 7px;
+    }
+
+    
+  
+    
+
+    .forecast{
+        Max-width: 56em;
+        
+        background-color: lightskyblue;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+        border-bottom: 0em;
+        position: relative;
+        top: -16.7em;
+     }
+     
+     .forecast h3{
+         text-align: center;
+     
+     }
+     
+     .forecasttable{
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .forecasttable th, .forecasttable td{
+         width: 5em;
+         text-align: center;
+         border: solid black .1em;
+     }
+    
+    
+
+     .articles{
+        Position: relative;
+        top: -18.4em;
+     }
+
+
+    
+   
+    .articlesummary{
+        display: inline-block;
+        max-width: 15em;
+        height: auto;
+        position: relative;
+        top: -4em;
+       
+    }
+    
+    
+    
+    .rightimage{
+        display: inline-block;
+        max-width: 19em;
+        height: auto;
+        float: right;
+        position: relative;
+        top: 6em;
+        left: -1em;
+    }
+
+    
+    .mapci{
+
+        max-height: 1em;
+        max-width: 46em;
+        background-color: lightgreen;
+        margin-top: 0em;
+        margin-bottom: 0em;
+        border: 0em;
+        padding: 0em;
+        position: relative;
+        top: -21.95em;
+    }
+    
+    .imgleft{
+        display: block;
+        visibility: visible;
+        min-width: 2em;
+        max-width: 15em;
+        height: auto;
+        position: relative;
+        bottom: -3em;
+        left: .5em;
+    
+    }
+    
+    .contact1{
+        max-width: 10em;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        top: -15em;        
+        left: 1em;
+    }
+    
+    #map{
+        display: inline-block;      
+        max-width: 20em;
+        position: relative;
+        top: -7em;
+        left: 10em;
+        height: 20em;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+         
+        
+    }
+    
+    .foot{
+       
+        position: relative;
+        top: -22.95em;
+        
+    }
+
+    /*Styling for the Home page*/
+    .grids2{
+        grid-template-rows: 1fr;
+        display:inline-block;
+        
+    }
+
+    .citiesdiv{
+        display: inline-block;
+        position: relative;
+        left: 0em;
+        margin: .04em;
+        max-width: 13em;
+        min-height: 20em;
+
+    }
+
+   #fh{
+       min-height: 9em;
+       padding-top: 2.4em;
+   }
+
+   #years4, #pop4, #arf4{
+       Position: relative;
+       top: 1em;
+    
+   }
+
+
+   .json{
+       min-height: 9em;
+   }
+
+   
+
+    
+}

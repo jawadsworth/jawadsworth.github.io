@@ -1,4 +1,4 @@
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';    
+var requestURL = 'https://jawadsworth.github.io/assignments/termproject/json/towns.json';    
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -11,9 +11,10 @@ request.onload = function() {
 }
 
 function showTemples(jsonObj) {
-    var pTemples = jsonObj['towns'];
+    var pTemples = jsonObj['temples'];
 
     var name1 = pTemples[0].name;
 
     document.getElementById('test').innerHTML = name1;
 
+}

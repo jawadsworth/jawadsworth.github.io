@@ -1,0 +1,2 @@
+
+var test = $.getJSON(temples)

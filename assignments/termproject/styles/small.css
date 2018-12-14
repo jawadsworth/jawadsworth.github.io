@@ -1,0 +1,159 @@
+/*Global Colors and Fonts*/
+.header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fadeImg, .opener, .closer, .hotelimg, .footer {
+    background-color:#456799;
+}
+.header{
+    background-color: #508361;
+}
+
+a {
+    color: rgb(35, 179, 119);
+}
+
+/*GLOBAL GRID-TEMPLATES FOR ALL PAGES*/
+
+.header    {grid-area: i1;}
+.nav       {grid-area: i2;}
+.fadeImg   {grid-area: i3;}
+.opener    {grid-area: i4;}
+.closer    {grid-area: i5;} 
+.hotelimg  {grid-area: i6;}
+.footer    {grid-area: i7;}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'i1'
+    'i2'
+    'i3'
+    'i4'
+    'i5'
+    'i6'
+    'i7'
+}
+
+/* GLOBAL SUB GRID-TEMPLATE FOR SMALL DESIGN FOR HEADER */
+
+.logo     {grid-area: si1}
+.tis      {grid-area: si2}
+
+.header {
+    display: grid;
+    grid-template-areas:
+    'si1'
+    'si2'
+}
+
+/*Sub Grid-template for 'about us' section*/
+
+.opener h2{grid-area: si3}
+.opener p {grid-area: si4}
+
+.opener{
+    display: grid;
+    grid-template-areas:
+    'si3'
+    'si4'
+}
+
+/*Sub Grid-Template for the body or main div (beneath nav and above footer) for the Home Page
+in the small view.*/
+
+
+/**/
+
+
+/*Image attributes (for static images only, or for images that don't cycle within div)*/
+
+/*Home Page static images*/
+.container{
+    border-radius: 80px;
+}
+
+.logop{
+    width: 110px;
+    height: 150px;
+    margin: 0;
+    opacity: .54;
+    border-radius: 260px;
+    position: relative;
+    top: 10px;
+}
+
+.hotelr{
+    width: 300px;
+    height: auto;
+}
+
+.fadeImg img{
+    width: 26em;
+    height: 16em;
+    border-radius: 100px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+/*POSITIONING WITH SOME DIVS*/
+
+.logo, .tis {
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*NAV styling for hamburger button*/
+
+nav button {
+
+    margin: .2rem 2%;
+    background-color: transparent;
+   
+    font-size: 1rem;
+    color: black;
+    
+}
+nav {
+    background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}    
+
+nav ul li a {
+    display: block;
+    padding: .2rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li:hover {background-color: rgba(94, 79, 79, 0.4);)}
+nav ul li .active {background-color: rgba(0,0,0,0.2); color: #fff;}
+
+
+
+nav ul.hide {display: none;}
+
+}

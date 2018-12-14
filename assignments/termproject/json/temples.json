@@ -1,0 +1,47 @@
+{
+    "temples": [
+        {
+            "name":  "Accra Ghana Temple",
+            "address": [
+                "Accra Ghana Temple Complex",
+                "57 Independence Ave, North Ridge",
+                "P.M.B. CT 209, Cantonments, Accra, Ghana"
+            ],
+            "telephone": "(233) 302-650-123",
+            "email": "",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "Announced: February 16, 1998",
+                "Groundbreaking: November 16, 2001",
+                "Dedicated: January 11, 2004"
+            ],
+            "ordinance schedule": "https://www.lds.org/temples/details/accra-ghana-temple?lang=eng",
+            "endowment schedule": [
+                "Monday: Closed",
+                "Tuesday-Friday: 8:30am, 10:30am, 12:30pm, 2:30pm, 4:30pm, 6:30pm",
+                "Saturday: 7:00am, 8:30am, 10:00am, 11:30am, 1:00am",
+                "Second Tuesdays: 7:00am"
+            ],
+            "Baptistry Schedule": [
+                "Tuesday-Friday: 8:00am - 7:30pm",
+                "Saturday: 8:00am - 1:00pm",
+                "Family Priority Time By Appointment"
+            ],
+            "temple closure schedule": [
+                "Monday, January 16 - Monday, January 30",
+                "Monday, June 12 - Monday, June 26",
+                "Saturday, August 19",
+                "Tuesday, December 26"
+            ],
+
+
+
+        }
+
+    ]
+}

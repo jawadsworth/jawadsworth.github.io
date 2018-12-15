@@ -2,7 +2,7 @@
             $current = 0;		// fixed, please do not modfy;
             $interval = 3000;	// You can set single picture show time;
             $fadeTime = .1;	// You can set fadeing-transition time;
-            $imgNum = 5;		// How many pictures do you have
+            $imgNum = 6;		// How many pictures do you have
          
             $(document).ready(function(){
                 //NOTE : Div Wrapper should with css: relative;

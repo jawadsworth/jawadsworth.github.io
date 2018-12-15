@@ -1,45 +1,59 @@
 {
   "temples": [
   {
-  "name": "SLC",
-  "motto": "Where you will grow!",
-  "yearFounded": 1788,
-  "currentPopulation": 30458,
-  "averageRainfall": 21,
+  "name": [
+    "100 Hinckley wy",
+    "Belmont MA 02478-2135",
+    "United States"
+  ],
+  "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
+  "yearFounded": 1858,
+  "currentPopulation": 2985,
+  "averageRainfall": 15.75,
   "events": [
-  "March 4: March to the Drum of Donuts",
-  "September 5 - 11: Founder Days",
-  "December 1 - 26: Christmas in the Heart"
+  "February 29: Geyser Song Day",
+  "May 1-6: Days of May Celebration",
+  "October 15-16: Octoberfest"
   ]
   },
   {
-  "name": "Ghana",
-  "motto": "This is Fish Heaven.",
-  "yearFounded": 1864,
-  "currentPopulation": 501,
-  "averageRainfall": 14.2,
+  "name": [
+    "2 Central Wy",
+    "Farmington CT 06032",
+    "United States"
+  ],
+  "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
+  "yearFounded": 1858,
+  "currentPopulation": 2985,
+  "averageRainfall": 15.75,
   "events": [
-  "April 1: How Big Was That Fish Day",
-  "May 15-30: Rush the Creek Days",
-  "July 24: Bear Lake Blunder Run",
-  "December 12: Light the Tree"
+  "February 29: Geyser Song Day",
+  "May 1-6: Days of May Celebration",
+  "October 15-16: Octoberfest"
   ]
   },
   {
-  "name": "Logan",
-  "motto": "Green is our way of life.",
-  "yearFounded": 1805,
-  "currentPopulation": 33458,
-  "averageRainfall": 25,
+  "name": [
+    "125 Columbus Ave, Fourth Floor",
+    "New York NY 10023-6514",
+    "United States"
+  ],
+  "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
+  "yearFounded": 1858,
+  "currentPopulation": 2985,
+  "averageRainfall": 15.75,
   "events": [
-  "February 10-12: Greenbration",
-  "May 8 - 18: Greenville Founder Days",
-  "June 20: Verde and Valiant Day",
-  "November 15-16: Greensome Gathering"
-  ]
+  "February 29: Geyser Song Day",
+  "May 1-6: Days of May Celebration",
+  "October 15-16: Octoberfest"
+  ]  
   },
   {
-  "name": "Idaho Falls",
+  "name": [
+    "2720 Temple Rd",
+    "Palmyra NY 14522-9573",
+    "United States"
+  ],
   "motto": "Positive Placement in Placerton.",
   "yearFounded": 1946,
   "currentPopulation": 512,
@@ -50,7 +64,11 @@
   ]
   },
   {
-  "name": "Blackfoot",
+  "name": [
+     "1739 Vine St",
+     "Philadelphia PA",
+     "United States"
+  ],
   "motto": "Home of Napoleon Dynamite",
   "yearFounded": 1866,
   "currentPopulation": 5204,
@@ -62,7 +80,11 @@
   ]
   },
   {
-  "name": "Nashville",
+  "name": [
+    "9900 Stoneybrook Dr",
+    "Kensington MD 20895-3199",
+    "United States"
+  ],
   "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
   "yearFounded": 1858,
   "currentPopulation": 2985,

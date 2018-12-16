@@ -165,6 +165,10 @@ nav ul.hide {display: none;}
     background-color: red;
 }
 
+.address{
+    list-style: none;
+}
+
 
 /*Boston, Massachussetts
   Hartford, Connecticut

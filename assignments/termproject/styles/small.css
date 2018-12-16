@@ -163,9 +163,10 @@ nav ul.hide {display: none;}
 
 .help{
     background-color: red;
+    list-style: none;
 }
 
-.address{
+.inf{
     list-style: none;
 }
 

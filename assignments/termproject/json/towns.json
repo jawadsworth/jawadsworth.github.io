@@ -20,9 +20,7 @@
     "Jun 13, 1997: Groundbreaking",
     "Oct 01, 2000: Dedicated"
   ],
-  "schedule": [
-    {
-    "endowment": [
+  "endowment": [
     "Tuesday - Friday hourly sessions",
     "from 8:00AM to 3:00PM and from",
     "4:30AM to 7:30PM",
@@ -30,7 +28,7 @@
     "Saturday hourly sessions from",
     "7:00AM to 7:00PM"
     ],
-    "baptism": [
+  "baptism": [
       "Tuesday - Friday",
       "By Appointment: 8:00AM - 10:00AM;",
       "12:00 PM - 4:00PM; and",
@@ -38,16 +36,15 @@
       "",
       "Family Priority Time: 10:00AM -",
       "12:00PM; and 4:00PM - 6:00PM"
-    ],
-    "initiatory": [
+  ],
+  "initiatory": [
       "For initiatory information and",
       "schedule, please call the temple"
-    ],
+  ],
     "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+  ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 1/8 - 1/28; 6/6; 7/4;",
@@ -81,9 +78,7 @@
     "Aug 17, 2016: Groundbreaking",
     "Nov 20, 2016: Dedicated"
   ],
-  "schedule": [
-    {
-    "endowment": [
+  "endowment": [
     "Tuesday - Friday:",
     "Sessions are at 6:00PM and 7:00PM",
     "",
@@ -109,8 +104,7 @@
     "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+    ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 6/6; 5/13 - 5/27; 7/4;",
@@ -144,9 +138,7 @@
     "Sep 23, 2002: Groundbreaking",
     "Jun 13, 2004: Dedicated"
   ],
-  "schedule": [
-    {
-    "endowment": [
+  "endowment": [
     "Tuesday - Friday:",
     "Sessions are at 6:30AM, 8:00AM,",
     "11:00AM, 12:30PM, 2:00PM, 6:15PM",
@@ -155,8 +147,7 @@
     "Saturday sessions are every hour",
     "and a half beginning at 7:30AM -",
     "5:00PM" 
-    
-    ],
+  ],
     "baptism": [
       "Tuesday-Friday:",
       "7:00AM - 7:45AM; 11:00AM - 12:00PM",
@@ -174,8 +165,7 @@
     "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+    ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 1/21 - 2/4; 6/6; 7/4;",
@@ -209,18 +199,15 @@
     "May 25, 1999: Groundbreaking",
     "Apr 06, 2000: Dedicated"
   ],
-  "schedule": [
-    {
-    "endowment": [
+  "endowment": [
     "Tuesday - Friday:",
     "Sessions are at 6:00AM, 9:00AM,",
     "11:00AM, 6:00PM, 7:30PM",
     "",
     "Saturday:",
     "9:30AM, 11:00AM, 1:30, 3:00"
-    
-    ],
-    "baptism": [
+  ],
+  "baptism": [
       "Tuesday-Friday:",
       "By Appointment: 8:00AM - 10:00AM,",
       "and 6:00PM - 8:00PM",
@@ -231,15 +218,14 @@
       "Family Priority Time:",
       "8:00AM - 10:00AM"
     ],
-    "initiatory": [
+  "initiatory": [
       "For initiatory information and",
       "schedule, please call the temple"
     ],
-    "sealing": [
+  "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+  ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 2/11 - 2/23; 6/6; 7/4;",
@@ -275,9 +261,7 @@
     "May 25, 1999: Groundbreaking",
     "Apr 06, 2000: Dedicated"
   ],
-  "schedule": [
-    {
-    "endowment": [
+  "endowment": [
     "Tuesday - Friday:",
     "Sessions are at 6:00AM, 9:00AM,",
     "11:00AM, 6:00PM, 7:30PM",
@@ -304,8 +288,7 @@
     "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+    ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 2/11 - 2/23; 6/6; 7/4;",
@@ -341,8 +324,6 @@
     "May 25, 1999: Groundbreaking",
     "Apr 06, 2000: Dedicated"
   ],
-  "schedule": [
-    {
     "endowment": [
     "Tuesday - Friday:",
     "Sessions are at 6:00AM, 9:00AM,",
@@ -370,8 +351,7 @@
     "sealing": [
       "For sealing information and",
       "schedule, please call the temple"
-    ]
-  }],
+    ],
   "closure":[
     "2018: 12/25",
     "2019: 1/1; 2/11 - 2/23; 6/6; 7/4;",

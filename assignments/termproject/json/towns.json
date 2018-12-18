@@ -28,12 +28,11 @@
     "7:00AM to 7:00PM"
     ],
   "baptism": [
-      "Tuesday - Friday",
-      "By Appointment: 8:00AM - 10:00AM;",
-      "12:00 PM - 4:00PM; and",
-      "6:00 PM - 9:30PM",
-      "Family Priority Time: 10:00AM -",
-      "12:00PM; and 4:00PM - 6:00PM"
+      "8:00AM-10:00AM; 12:00PM-4:00PM;",
+      "and 6:00PM-9:30PM",
+      "10:00AM-12:00PM; and 4:00PM-6:00PM",
+      "7:30AM-12:00PM",
+      "12:00PM-2:30PM"
   ],
   "initiatory": [
       "For initiatory information and",
@@ -85,13 +84,12 @@
     
     ],
     "baptism": [
-      "Tuesday - Friday:",
-      "family Priority Time:",
-      "6:00PM - 8:00PM",
-      "Saturday:",
-      "By Appointment: 7:30AM - 12:00PM",
-      "Family Priority Time: 12:00PM -",
-      "2:30PM (Appointment Preferred)"
+
+      "From 6:00PM-8:00PM on weekdays",
+      "Appointments are preferred",
+      "Families are given priority",      
+      "7:30AM-12:00PM Appointment Required",
+      "12:00PM-2:30PM Appointment Preferred"
     ],
     "initiatory": [
       "For initiatory information and",
@@ -144,13 +142,11 @@
     "5:00PM" 
   ],
     "baptism": [
-      "Tuesday-Friday:",
-      "7:00AM - 7:45AM; 11:00AM - 12:00PM",
-      "2:30PM - 3:30PM; 4:00PM - 4:30PM",
-      "6:30PM - 7:30PM",
-      "Saturday:",
-      "By Appointment: 6:30AM - 12:00PM",
-      "and 1:30PM - 4:00PM"
+      "7:00AM-7:45AM; 11:00AM-12:00PM 2:30PM-",
+      "3:30PM; 4:00PM-4:30PM, 6:30PM-7:30PM",
+      "Family Priority not noted",
+      "6:30AM-12:00PM and 1:30PM-4:00PM",
+      "Family Priority not noted"
     ],
     "initiatory": [
       "For initiatory information and",
@@ -201,13 +197,11 @@
     "9:30AM, 11:00AM, 1:30, 3:00"
   ],
   "baptism": [
-      "Tuesday-Friday:",
-      "By Appointment: 8:00AM - 10:00AM,",
-      "and 6:00PM - 8:00PM",
-      "Saturday:",
-      "By Appointment: 10:00AM - 12:00PM,",
-      "12:00PM - 2:00PM, 2:00PM - 4:00PM",
-      "Family Priority Time: 8:00AM - 10:00AM"
+      "8:00AM-10:00AM, 6:00PM-8:00PM",
+      "Appointment is preferred",
+      "Not noted during the weekdays",
+      "10:00AM-12:00PM, 12:00PM-2:00PM, and 2:00PM-4:00PM",
+      "8:00AM-10:00AM"
     ],
   "initiatory": [
       "For initiatory information and",

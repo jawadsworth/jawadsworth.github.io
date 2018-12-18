@@ -65,6 +65,7 @@ function showTemples(jsonObj) {
     var phoneh = pTemples[i].telephone;
     var serviceh = pTemples[i].services;
     var historyh = pTemples[i].history;
+    var baptismh = pTemples[i].baptism;
 
     document.getElementById('test').innerHTML = addressh[0];
     document.getElementById('address1').innerHTML = addressh[0];
@@ -77,6 +78,14 @@ function showTemples(jsonObj) {
     document.getElementById('history1').innerHTML = historyh[0];
     document.getElementById('history2').innerHTML = historyh[1];
     document.getElementById('history3').innerHTML = historyh[2];
+    document.getElementById('b1').innerHTML = baptismh[0];
+    document.getElementById('b2').innerHTML = baptismh[1];
+    document.getElementById('b3').innerHTML = baptismh[2];
+    document.getElementById('b4').innerHTML = baptismh[3];
+    document.getElementById('b5').innerHTML = baptismh[4];
+    document.getElementById('b6').innerHTML = baptismh[5];
+    document.getElementById('b7').innerHTML = baptismh[6];
+    document.getElementById('b8').innerHTML = baptismh[7];
     
 }
 

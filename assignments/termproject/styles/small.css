@@ -171,9 +171,15 @@ nav ul.hide {display: none;}
 }
 
 
-/*Boston, Massachussetts
-  Hartford, Connecticut
-  Manhatten, New York
-  Philadelphia, Pensylvania
-  Washington, DC 
-*/
+#map{
+    display: block;
+   
+    height: auto;
+   
+    max-width: 30em;
+   
+          
+    height: 15em;
+    width: 80%;
+    
+}

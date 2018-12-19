@@ -50,7 +50,13 @@
     "The Temple Inn and Suite is within",
     "1.5 miles of this beautiful temple",
     "at 1776 Freedom Lane.  Shuttle",
-    "services are provided"
+    "services are provided"  
+  ],
+  "Longitude": [
+    "42.4111066"
+  ],
+  "latitude":[
+    "-71.1916611"
   ]
   },
   {
@@ -105,6 +111,12 @@
     "1.5 miles of this beautiful temple",
     "at 17 Cherry Tree Lane.  Shuttle",
     "services are provided"
+  ],
+  "Longitude":[
+    "41.7378045"
+  ],
+  "Latitude":[
+    "41.7378045"
   ]
   },
   {
@@ -158,6 +170,12 @@
     "7 miles of this beautiful temple",
     "at 1 Big Apple St. and is located",
     "within 0.2 miles of a metro station"
+  ],
+  "Longitude": [
+    "40.7730408"
+  ],
+  "latitude":[
+    "-73.9838167"
   ]
   },
   {
@@ -209,9 +227,14 @@
   "summary": [  
     "The Temple Inn and Suite is within",
     "walking distance of this beautiful",
-    "temple at 1 Big Apple St. and is",
-    "located within 0.2 miles of a metro",
-    "station"
+    "temple at 1 Big Apple St. and is located",
+    "just next to the nearest metro station"
+  ],
+  "Longitude": [
+    "43.0389764"
+  ],
+  "latitude":[
+    "-77.2392135"
   ]
   },
   {
@@ -272,6 +295,12 @@
     "temple at 1 Big Apple St. and is",
     "located within 0.2 miles of a metro",
     "station"
+  ],
+  "Longitude": [
+    "43.0389764"
+  ],
+  "latitude":[
+    "-77.2392135"
   ]
   },
   {
@@ -332,6 +361,12 @@
     "temple at 1 Big Apple St. and is",
     "located within 0.2 miles of a metro",
     "station"
+  ],
+  "Longitude": [
+    "43.0389764"
+  ],
+  "latitude":[
+    "-77.2392135"
   ]
   }
   ]

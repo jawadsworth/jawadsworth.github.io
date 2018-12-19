@@ -18,9 +18,10 @@ function showTemples1(jsonObj) {
     var serviceh = pTemples[0].services;
     var historyh = pTemples[0].history;
     var baptismh = pTemples[0].baptism;
+    var endowmenth = pTemples[0].endowment;
    
 
-    document.getElementById('test').innerHTML = addressh[0];
+    
     document.getElementById('address1').innerHTML = addressh[0];
     document.getElementById('address2').innerHTML = addressh[1];
     document.getElementById('phone').innerHTML = phoneh;
@@ -36,9 +37,9 @@ function showTemples1(jsonObj) {
     document.getElementById('b3').innerHTML = baptismh[2];
     document.getElementById('b4').innerHTML = baptismh[3];
     document.getElementById('b5').innerHTML = baptismh[4];
-    document.getElementById('b6').innerHTML = baptismh[5];
-    document.getElementById('b7').innerHTML = baptismh[6];
-    document.getElementById('b8').innerHTML = baptismh[7];
+    document.getElementById('e1').innerHTML = endowmenth[5];
+    document.getElementById('e2').innerHTML = endowmenth[6];
+    document.getElementById('e3').innerHTML = endowmenth[7];
 }
 
 
@@ -60,14 +61,16 @@ request.onload = function() {
 
 function showTemples(jsonObj) {
     var pTemples = jsonObj['temples'];
-    var i = document.getElementById('srt').value = document.getElementById('select').value;
+    var i = document.getElementById('select').value;
     var addressh = pTemples[i].address;
     var phoneh = pTemples[i].telephone;
     var serviceh = pTemples[i].services;
     var historyh = pTemples[i].history;
     var baptismh = pTemples[i].baptism;
+    var endowmenth = pTemples[i].endowment;
 
-    document.getElementById('test').innerHTML = addressh[0];
+
+    
     document.getElementById('address1').innerHTML = addressh[0];
     document.getElementById('address2').innerHTML = addressh[1];
     document.getElementById('phone').innerHTML = phoneh;
@@ -82,12 +85,11 @@ function showTemples(jsonObj) {
     document.getElementById('b2').innerHTML = baptismh[1];
     document.getElementById('b3').innerHTML = baptismh[2];
     document.getElementById('b4').innerHTML = baptismh[3];
-    document.getElementById('b5').innerHTML = baptismh[4];
-    document.getElementById('b6').innerHTML = baptismh[5];
-    document.getElementById('b7').innerHTML = baptismh[6];
-    document.getElementById('b8').innerHTML = baptismh[7];
+    document.getElementById('e1').innerHTML = endowmenth[0];
+    document.getElementById('e2').innerHTML = endowmenth[1];
+    document.getElementById('e3').innerHTML = endowmenth[2];
+    
     
 }
-
 
 

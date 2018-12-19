@@ -19,6 +19,10 @@ function showTemples1(jsonObj) {
     var historyh = pTemples[0].history;
     var baptismh = pTemples[0].baptism;
     var endowmenth = pTemples[0].endowment;
+    var long = pTemples[0].longitude;
+    
+    
+    
    
 
     
@@ -37,9 +41,13 @@ function showTemples1(jsonObj) {
     document.getElementById('b3').innerHTML = baptismh[2];
     document.getElementById('b4').innerHTML = baptismh[3];
     document.getElementById('b5').innerHTML = baptismh[4];
-    document.getElementById('e1').innerHTML = endowmenth[5];
-    document.getElementById('e2').innerHTML = endowmenth[6];
-    document.getElementById('e3').innerHTML = endowmenth[7];
+    document.getElementById('e1').innerHTML = endowmenth[0];
+    document.getElementById('e2').innerHTML = endowmenth[1];
+    document.getElementById('e3').innerHTML = endowmenth[2];
+    document.getElementById('l1').innerHTML = long;
+   
+    
+
 }
 
 

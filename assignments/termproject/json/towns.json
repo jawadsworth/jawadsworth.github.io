@@ -52,11 +52,11 @@
     "at 1776 Freedom Lane.  Shuttle",
     "services are provided"  
   ],
-  "Longitude": [
-    "42.4111066"
+  "long": [
+    42.4111066
   ],
-  "latitude":[
-    "-71.1916611"
+  "lat": [
+    -71.1916611
   ]
   },
   {
@@ -112,11 +112,11 @@
     "at 17 Cherry Tree Lane.  Shuttle",
     "services are provided"
   ],
-  "Longitude":[
-    "41.7378045"
+  "long":[
+    41.7378045
   ],
-  "Latitude":[
-    "41.7378045"
+  "lat":[
+    41.7378045
   ]
   },
   {
@@ -171,11 +171,11 @@
     "at 1 Big Apple St. and is located",
     "within 0.2 miles of a metro station"
   ],
-  "Longitude": [
-    "40.7730408"
+  "long": [
+    40.7730408
   ],
-  "latitude":[
-    "-73.9838167"
+  "lat":[
+    -73.9838167
   ]
   },
   {
@@ -230,11 +230,11 @@
     "temple at 1 Big Apple St. and is located",
     "just next to the nearest metro station"
   ],
-  "Longitude": [
-    "43.0389764"
+  "long": [
+    43.0389764
   ],
-  "latitude":[
-    "-77.2392135"
+  "lat":[
+    -77.2392135
   ]
   },
   {
@@ -296,11 +296,11 @@
     "located within 0.2 miles of a metro",
     "station"
   ],
-  "Longitude": [
-    "43.0389764"
+  "long": [
+    43.0389764
   ],
-  "latitude":[
-    "-77.2392135"
+  "lat":[
+    -77.2392135
   ]
   },
   {
@@ -362,11 +362,11 @@
     "located within 0.2 miles of a metro",
     "station"
   ],
-  "Longitude": [
-    "43.0389764"
+  "long": [
+    43.0389764
   ],
-  "latitude":[
-    "-77.2392135"
+  "lat":[
+    -77.2392135
   ]
   }
   ]

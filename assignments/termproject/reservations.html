@@ -42,7 +42,8 @@
                 <img style='display:none;' src='images/phillyo.jpg'>
                 <img style='display:none;' src='images/washingtono.jpg'>
         </div>
-        <div class='opener'>
+        
+        <div class='formDiv'>
         <form method="get" action="thanks.html">
                 <h2>Make Your Reservation Today</h2>
                 
@@ -57,7 +58,7 @@
                 <label>Date of Stay:</label><br>
                 <input type="date" name="date"></label><br><br>
                 <label>Room Type:</label><br>
-                <select name='room'>
+                <select name='room' class='select1'>
                     <option>Two Bedroom King</option>
                     <option>One Bedroom King</option>
                     <option>Two Bedroom: One King, One Queen</option>
@@ -67,17 +68,17 @@
                 <label>Number of Rooms:</label><br>
                 <input type='number' min='1' max='10'><br><br>
                 <label>Which Temple Stay</label><br>
-                <select name='templeStay'>
+                <select name='templeStay' class='select1'>
                     <option>Boston Massachusettes</option>
                     <option>Hartford Connecticut</option>
                     <option>Manhatten New York</option>
                     <option>Palmyra New York</option>
                 </select><br><br>
-                <label>Any Special Accomodation Requests or Comments:
-                    <textarea name="comment" rows="4" cols="50" placeholder="Enter Text Here..."></textarea>
-                </label><br>                 
+                <label>Any Special Accomodation Requests or Comments:</label><br>
+                <textarea name="comment" rows="4" cols="50" placeholder="Enter Text Here..."></textarea><br>
+                                
                 
-                <input type="submit" value="Submit Reservation" class="ibutton">
+                <input type="submit" value="Submit Reservation" class="ibutton2">
             </form>
             </div>
             <div class='footer'>

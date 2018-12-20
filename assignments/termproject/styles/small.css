@@ -14,10 +14,14 @@
     background-color:#456799;
 }
 
-.opener, .closer, .hotelimg{
+.opener, .closer, .hotelimg, .formDiv2 {
     background-color: rgb(238, 223, 255);
     
 }
+
+
+
+
 
 .opener p, .closer p{
     max-width: 38em;
@@ -224,20 +228,32 @@ nav ul.hide {display: none;}
 
 /* Styles for Reservations*/
 
+
+.formDiv{
+    background-color: rgb(238, 223, 255);
+    min-width: 79em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 form{     
-    Position: relative;
-    left: 6.5em;
-    top: 0;
+   
     border: solid black .2em;
     min-width: 29em;
     max-width: 30em;
     padding-top: 2em;
-    border-radius: 1em;
+    border-radius: 60px;
+    border: solid black .1em;
 }
 
 input, .ibutton, select{
-    height: 2.7em; 
-    border-radius: .1em;
+    height: 1.5em; 
+    border-radius: 20px;
+ }
+
+ .select1{
+     max-height: 2.5em;
  }
 
  #rating{
@@ -245,7 +261,7 @@ input, .ibutton, select{
     max-width: 13em;
 }
 
-label, .ibutton, legend{
+label, .ibutton, legend, .ibutton2{
     font-size: 1.5em;
     text-align: left;
 }
@@ -278,10 +294,15 @@ height: 7em;
 
 textarea{
 max-width: 18em;
-border-radius: .1em;
+border-radius: 20px;
 }
 
 .ibutton{
+    position: relative;
+    left: 8em;
+}
+
+.ibutton2{
     position: relative;
     left: 5em;
 }
@@ -308,4 +329,21 @@ iframe{
 
 .select1{
     height: 2em;
+}
+
+.contact    {grid-area: i1;}
+.emMap      {grid-area: i2;}
+.formdiv3   {grid-area: i3;}
+
+
+.formDiv2 {
+    display: grid;
+    grid-template-areas:
+    'i1'
+    'i2'
+    'i3';
+
+    justify-items: center;
+    width: 79em;
+
 }

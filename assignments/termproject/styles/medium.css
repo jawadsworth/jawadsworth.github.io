@@ -1,0 +1,41 @@
+@media only screen and (min-width: 64em){
+    /*GLOBAL MEDIUM GRID-TEMPLATES FOR ALL PAGES*/
+
+.header    {grid-area: i1;}
+.nav       {grid-area: i2;}
+.fadeImg   {grid-area: i3;}
+.opener    {grid-area: i4;}
+.closer    {grid-area: i5;} 
+.hotelimg  {grid-area: i6;}
+.footer    {grid-area: i7;}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'i1 i1'
+    'i2 i2'
+    'i3 i3'
+    'i4 i5'
+    'i6 i6'
+    'i7 i7'
+}
+
+/* GLOBAL MEDIUM SUB GRID-TEMPLATE FOR SMALL DESIGN FOR HEADER */
+
+.logo     {grid-area: si1}
+.tis      {grid-area: si2}
+
+.header {
+    display: grid;
+    grid-template-areas:
+    'si1 si2'
+    
+}
+
+.tis{
+    position: relative;
+    right: 13em;
+    top: 1em;
+}
+
+}

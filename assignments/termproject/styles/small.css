@@ -1,26 +1,44 @@
 /*Global Colors and Fonts*/
 .header{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
 }
 
 .footer{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    padding-top: 2em;
 }
 
-.fadeImg, .opener, .closer, .hotelimg, .footer {
+.fadeImg {
     background-color:#456799;
 }
-.header{
+
+.opener, .closer, .hotelimg{
+    background-color: rgb(238, 223, 255);
+    
+}
+
+.opener p, .closer p{
+    max-width: 38em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.opener h2, .closer h2{
+    margin-left: 2em;
+}
+
+.header, .footer{
     background-color: #508361;
+    padding-bottom: 2em;
 }
 
 a {
     color: rgb(35, 179, 119);
 }
 
-/*GLOBAL GRID-TEMPLATES FOR ALL PAGES*/
+/*GLOBAL SMALL GRID-TEMPLATES FOR ALL PAGES*/
 
 .header    {grid-area: i1;}
 .nav       {grid-area: i2;}
@@ -42,7 +60,7 @@ a {
     'i7'
 }
 
-/* GLOBAL SUB GRID-TEMPLATE FOR SMALL DESIGN FOR HEADER */
+/* GLOBAL SMALL SUB GRID-TEMPLATE FOR SMALL DESIGN FOR HEADER */
 
 .logo     {grid-area: si1}
 .tis      {grid-area: si2}
@@ -77,31 +95,31 @@ in the small view.*/
 
 /*Home Page static images*/
 .container{
-    border-radius: 80px;
+    border-radius: 1em;
 }
 
 .logop{
-    width: 110px;
-    height: 150px;
+    width: 10em;
+    height: 13em;
     margin: 0;
     opacity: .54;
-    border-radius: 260px;
+    border-radius: 5em;
     position: relative;
-    top: 10px;
+    top: 1em;
 }
 
 .hotelr{
-    width: 300px;
+    width: 40em;
     height: auto;
 }
 
 .fadeImg img{
     width: 26em;
     height: 16em;
-    border-radius: 100px;
+    border-radius: 5em;
     position: relative;
-    left: 5px;
-    top: 5px;
+    left: .1em;
+    top: .1em;
 }
 
 /*POSITIONING WITH SOME DIVS*/
@@ -110,9 +128,15 @@ in the small view.*/
     border: none;
     display: flex;
     justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
 
+/*footer Styling*/
+.footline{
+    text-align: center;
+}
 
 
 
@@ -127,6 +151,8 @@ nav button {
     color: black;
     
 }
+
+@media only screen and (max-width: 1000px){
 nav {
     background: rgb(30,87,153); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
@@ -135,11 +161,14 @@ background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 5
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
+
+
 nav ul {
    list-style-type: none;
    padding: 0;
    margin: 0;
 }    
+
 
 nav ul li a {
     display: block;
@@ -157,7 +186,7 @@ nav ul li .active {background-color: rgba(0,0,0,0.2); color: #fff;}
 nav ul.hide {display: none;}
 
 }
-
+}
 
 /*Styling for Temples Page*/
 
@@ -171,15 +200,112 @@ nav ul.hide {display: none;}
 }
 
 
-#map{
+#maps{
     display: block;
    
     height: auto;
-   
-    max-width: 30em;
-   
+    
           
     height: 15em;
-    width: 80%;
+    width: %100;
     
+}
+
+/*styling for the table that has the temperature*/
+
+.tab{
+    font-size: 4vw;
+    color: rgb(245, 215, 132);
+
+}
+
+
+
+
+/* Styles for Reservations*/
+
+form{     
+    Position: relative;
+    left: 6.5em;
+    top: 0;
+    border: solid black .2em;
+    min-width: 29em;
+    max-width: 30em;
+    padding-top: 2em;
+    border-radius: 1em;
+}
+
+input, .ibutton, select{
+    height: 2.7em; 
+    border-radius: .1em;
+ }
+
+ #rating{
+    min-width: 12.9em;
+    max-width: 13em;
+}
+
+label, .ibutton, legend{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.stormrange{
+    display: flex;
+    border: solid lightgray .1em;
+    border-radius: .2em;
+}
+
+legend{
+    border-radius: .1em;
+}
+
+
+.stormrange{
+   display: inline-block;
+}
+
+#ratingvalue{
+font-size: 2em;
+position: relative;
+left: 3em;
+}
+
+select {
+height: 7em;
+
+}
+
+textarea{
+max-width: 18em;
+border-radius: .1em;
+}
+
+.ibutton{
+    position: relative;
+    left: 5em;
+}
+
+#output{
+    border: solid red 3em;
+}
+
+/*
+Contact page styles*/
+
+iframe{
+    width: 25em;
+    height:30
+}
+
+.thanks{
+    text-align: center;
+}
+
+#opener{
+    width: 1000px;
+}
+
+.select1{
+    height: 2em;
 }

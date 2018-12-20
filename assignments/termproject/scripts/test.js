@@ -19,7 +19,8 @@ function showTemples1(jsonObj) {
     var historyh = pTemples[0].history;
     var baptismh = pTemples[0].baptism;
     var endowmenth = pTemples[0].endowment;
-    var long = pTemples[0].longitude;
+    var closeh = pTemples[0].closure;
+    var sumh   = pTemples[0].summary;
     
     
     
@@ -44,8 +45,13 @@ function showTemples1(jsonObj) {
     document.getElementById('e1').innerHTML = endowmenth[0];
     document.getElementById('e2').innerHTML = endowmenth[1];
     document.getElementById('e3').innerHTML = endowmenth[2];
-    document.getElementById('l1').innerHTML = long;
-   
+    document.getElementById('close1').innerHTML = closeh[0];
+    document.getElementById('close2').innerHTML = closeh[1];
+    document.getElementById('close3').innerHTML = closeh[2];
+    document.getElementById('sum').innerHTML = sumh[0];
+    document.getElementById('sum1').innerHTML = sumh[1];
+    document.getElementById('sum2').innerHTML = sumh[2];
+    document.getElementById('sum3').innerHTML = sumh[3];
     
 
 }
@@ -76,6 +82,9 @@ function showTemples(jsonObj) {
     var historyh = pTemples[i].history;
     var baptismh = pTemples[i].baptism;
     var endowmenth = pTemples[i].endowment;
+    var closeh = pTemples[i].closure;
+    var sumh   = pTemples[i].summary;
+ 
 
 
     
@@ -96,6 +105,15 @@ function showTemples(jsonObj) {
     document.getElementById('e1').innerHTML = endowmenth[0];
     document.getElementById('e2').innerHTML = endowmenth[1];
     document.getElementById('e3').innerHTML = endowmenth[2];
+    document.getElementById('close1').innerHTML = closeh[0];
+    document.getElementById('close2').innerHTML = closeh[1];
+    document.getElementById('close3').innerHTML = closeh[2];
+    document.getElementById('sum').innerHTML = sumh[0];
+    document.getElementById('sum1').innerHTML = sumh[1];
+    document.getElementById('sum2').innerHTML = sumh[2];
+    document.getElementById('sum3').innerHTML = sumh[3];
+    
+   
     
     
 }

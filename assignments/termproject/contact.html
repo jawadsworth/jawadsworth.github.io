@@ -27,11 +27,11 @@
             <nav>
                 <button onclick="toggleMenu()">&#9776;</button>
                 <ul id="primaryNav" class="hide">
-                    <li><a class='active' href ="index.html">Home</a></li>
+                    <li><a  href ="index.html">Home</a></li>
                     <li><a  href ="temples.html">Temples</a></li>
                     <li><a  href ="services.html">Services</a></li>
                     <li><a  href ="reservations.html">Reservations</a></li>
-                    <li><a  href ='contact.html'>Contact</a></li>
+                    <li><a class='active' href ='contact'>Contact</a></li>
                 </ul>
             </nav>
         </div>        
@@ -43,29 +43,44 @@
                 <img style='display:none;' src='images/phillyo.jpg'>
                 <img style='display:none;' src='images/washingtono.jpg'>
         </div>
-        <div class="opener">
-            <h2>About Us</h2><br>
-            <p>Temple Inn & Suites is a hotel and hospitality chain established with the intent to make your
-                future temple visits affordable and comfortable.  Our mission is to serve you and attend to
-                your needs while you serve others and attend the most memorable celebrations of your family
-                and friends.  We operate in locations near more than 50 temples of The Church of Jesus Christ
-                of Latter-day Saints.  Each temple is either within walking distance of our properties or can 
-                be easily accessed by our complimentary shuttles.  While you stay with us we will take care of 
-                your comforts and needs while you take care of things that matter most.
-            </p>
+        <div class="opener" id='opener2'>
+                <div class="contact">
+                    <h3>Contact Information</h3>
+                    <table class='tab2'>
+                        <tr>
+                            <td>Address:</td>
+                        </tr>
+                        <tr>            
+                            <td>4810 Montgomery Ln #500</td>                    
+                        </tr>
+                        <tr>
+                            <td>Behesda, MD  20814</td>
+                        </tr>
+                    </table>
+                </div><br><br>
+                <div class="emMap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4090324367007!2d-77.09900308555274!3d38.98316017955739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1545286619262" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <form method="get" action="thanks.html">
+                        <h2>Please Submit Any Questions or Comments You May Have</h2>
+                        
+                        <label>Full Name (First Last)*:<br>
+                        <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label><br><br>
+                        <label>Email Address:<br>
+                        <input type="email" name="email" placeholder="JohnDoe@gmail.com"></label><br><br>
+                        <label>Phone Number*:<br>
+                        <input type="tel" name="pnumber" required></label><br><br>
+                        <label>Home State or Country:<br>
+                        <input type="text" name="home" required></label><br><br>
+                        <label>Please include questions or comments here or Comments:
+                            <textarea name="comment" rows="4" cols="50" placeholder="Enter Text Here..."></textarea>
+                        </label><br>                 
+                        
+                        <input type="submit" value="Submit" class="ibutton">
+                    </form>
+ 
         </div>
-        <div class="closer">
-            <h2>Summary of Our Services</h2><br>
-            <P>
-                We offer rooms and services at rates for single occupencies, and we offer discounted packages
-                for multiple rooms when you need reservations for the whole family.  Our <a href="services.html">amenities</a>
-                and our amenities will cover all your family needs.  Don't hesitate to make a reservation, though,
-                because our rooms fill fast.  Make your <a href="reservations.html">reservation</a> today!
-            </P>
-        </div>
-        <div class='hotelimg'>
-            <img class='hotelr' src='images/hotelroom.jpg' alt='Hotel Room'>
-        </div>
+        
         <div class='footer'>
                 <blockquote class="footline">
                         <p>@2018 TempleInn&Suites | Attributions | Jacob Wadsworth</p>

@@ -1,0 +1,97 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+            <title>TempleStay</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Tangerine">
+            <link rel="stylesheet" href="styles/Normalize.css">
+            <link rel='stylesheet' href='styles/small.css'>
+            <link rel='stylesheet' href='styles/medium.css'>
+            <link rel='stylesheet' href='styles/large.css'>
+            <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+       
+    </head>
+    <body class="container">
+        <div class='header'>
+            <div class='logo'>
+                <img class='logop' src='images/moroni.jpg' alt='moroni'>
+            </div>
+            <div class='tis'>
+                <h1>Temple Inn & Suites</h1>
+            </div>
+        </div>
+        <div class='nav'>
+            <nav>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a  href ="index.html">Home</a></li>
+                    <li><a  href ="temples.html">Temples</a></li>
+                    <li><a  href ="services.html">Services</a></li>
+                    <li><a  class='active' href ="reservations.html">Reservations</a></li>
+                    <li><a  href ='contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>        
+        <div class="fadeImg">
+                <img style='display:none;' src='images/bostono.jpg'>
+                <img style='display:none;' src='images/hartfordo.jpg'>
+                <img style='display:none;' src='images/manhattano.jpg'>
+                <img style='display:none;' src='images/palmyrao.jpg'>
+                <img style='display:none;' src='images/phillyo.jpg'>
+                <img style='display:none;' src='images/washingtono.jpg'>
+        </div>
+        <div class='opener'>
+        <form method="get" action="thanks.html">
+                <h2>Make Your Reservation Today</h2>
+                
+                <label>Full Name (First Last)*:<br>
+                <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label><br><br>
+                <label>Email Address:<br>
+                <input type="email" name="email" placeholder="JohnDoe@gmail.com"></label><br><br>
+                <label>Phone Number*:<br>
+                <input type="tel" name="pnumber" required></label><br><br>
+                <label>Home State or Country:<br>
+                <input type="text" name="home" required></label><br><br>
+                <label>Date of Stay:</label><br>
+                <input type="date" name="date"></label><br><br>
+                <label>Room Type:</label><br>
+                <select name='room'>
+                    <option>Two Bedroom King</option>
+                    <option>One Bedroom King</option>
+                    <option>Two Bedroom: One King, One Queen</option>
+                    <option>Two Bedroom: Queen</option>
+                    <option>One Bedroom: Queen</option>
+                </select><br><br>
+                <label>Number of Rooms:</label><br>
+                <input type='number' min='1' max='10'><br><br>
+                <label>Which Temple Stay</label><br>
+                <select name='templeStay'>
+                    <option>Boston Massachusettes</option>
+                    <option>Hartford Connecticut</option>
+                    <option>Manhatten New York</option>
+                    <option>Palmyra New York</option>
+                </select><br><br>
+                <label>Any Special Accomodation Requests or Comments:
+                    <textarea name="comment" rows="4" cols="50" placeholder="Enter Text Here..."></textarea>
+                </label><br>                 
+                
+                <input type="submit" value="Submit Reservation" class="ibutton">
+            </form>
+            </div>
+            <div class='footer'>
+                    <blockquote class="footline">
+                            <p>@2018 TempleInn&Suites | Attributions | Jacob Wadsworth</p>
+                            <p id="date"></p>
+                            </blockquote>
+            </div>
+        
+            <script src='scripts/hamburger.js'></script>
+            <script src='scripts/imgselect.js'></script>
+            <script src="scripts/weatherapi.js"></script>
+            <script src='scripts/currentdate.js'></script>
+                    <script src='scripts/imgrotate.js'></script>
+                    <script src='scripts/hamburger.js'></script>  
+                </body>
+            </html>

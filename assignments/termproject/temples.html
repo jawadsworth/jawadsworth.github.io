@@ -8,6 +8,8 @@
         href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="styles/Normalize.css">
         <link rel='stylesheet' href='styles/small.css'>
+        <link rel='stylesheet' href='styles/medium.css'>
+        <link rel='stylesheet' href='styles/large.css'>
         <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
        
     </head>
@@ -25,29 +27,33 @@
                     <button onclick="toggleMenu()">&#9776;</button>
                     <ul id="primaryNav" class="hide">
                         <li><a  href ="index.html">Home</a></li>
-                        <li><a  href ="x">Temples</a></li>
-                        <li><a  href ="x">Services</a></li>
-                        <li><a  href ="x">Reservations</a></li>
-                        <li><a  href ="x">Contact</a></li>
+                        <li><a class="active" href ="temples.html">Temples</a></li>
+                        <li><a  href ="services.html">Services</a></li>
+                        <li><a  href ="reservations.html">Reservations</a></li>
+                        <li><a  href ="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="fadeImg">
-                Select Temple: <select id="select" onchange='tryMe()' style='width:200px'>
-                    <option value="0">Boston Massachusetts</option>
-                    <option value="1">Hartfod Connecticut</option>
-                    <option value="2">Manhattan New York</option>
-                    <option value="3">Palmyra New York</option>
-                    <option value="4">Philadelphia Pennsylvania</option>
-                    <option value="5">Washington D.C.</option>
-                </select><br><br><br>
-                    <img style='display:none;' src='images/bostono.jpg'>
-                    <img style='display:none;' src='images/hartfordo.jpg'>
-                    <img style='display:none;' src='images/manhattano.jpg'>
-                    <img style='display:none;' src='images/palmyrao.jpg'>
-                    <img style='display:none;' src='images/phillyo.jpg'>
-                    <img style='display:none;' src='images/washingtono.jpg'>
-            </div>
+                
+                <div class="fadeImg">
+                    Select Temple: <select id="select" class='select1' onchange='tryMe();upMap();upWeather()' style='width:200px'>
+                        <option value='0'>Boston Massachusetts</option>
+                        <option value="1">Hartfod Connecticut</option>
+                        <option value="2">Manhattan New York</option>
+                        <option value="3">Palmyra New York</option>
+                        <option value="4">Philadelphia Pennsylvania</option>
+                        <option value="5">Washington D.C.</option>
+                    </select><br><br><br>
+                        <img style='display:none;' src='images/bostono.jpg'>
+                        <img style='display:none;' src='images/hartfordo.jpg'>
+                        <img style='display:none;' src='images/manhattano.jpg'>
+                        <img style='display:none;' src='images/palmyrao.jpg'>
+                        <img style='display:none;' src='images/phillyo.jpg'>
+                        <img style='display:none;' src='images/washingtono.jpg'><br>
+                        <p id= 'cit' class = 'tab'></p>
+                </div>
+
+            
 
 
 
@@ -56,7 +62,7 @@
 
 
 
-<div class='information1'>
+<div class='opener'>
     <H2><strong>TEMPLE INFORMATION</strong></H2>
     <ul class='inf'><strong><i>Address:</i></strong>
         <li id='address1'></li>
@@ -71,10 +77,15 @@
         <li><strong><i>Temple History:</i></strong></li>
         <li id='history1'></li>
         <li id='history2'></li>
-        <li id='history3'></li>
+        <li id='history3'></li><br>
+        <li><strong><i>Summary:</i></strong></li>
+        <li id='sum'></li>
+        <li id='sum1'></li>
+        <li id='sum2'></li>
+        <li id='sum3'></li>
     </ul>
 </div><br>
-<div class='information2'>
+<div class='closer'>
     <h2><strong>Ordinance Schedule</strong></h2>
     <h3><strong><i>Baptism</i></strong></h3>
     <ul class='inf'>
@@ -87,7 +98,7 @@
         <li id='b4'></li>
         <li><strong><i><u>Family Priority</u></i></strong></li>
         <li id='b5'></li>       
-    </ul><br>
+    </ul>
     <h3><strong><i>Endowment</i></strong></h3>
     <ul class='inf'>
         <li><strong>Weekdays</strong></li>
@@ -95,24 +106,31 @@
         <li id="e2"></li>
         <li><strong><i><u>Family Priority</u></i></strong></li>
         <li id='e3'></li>
-        <li id='l1'></li>
-        
-    </ul><br>
-    
-
+    </ul>
+    <h3><strong><i>Closure Dates</i></strong></h3>
+    <ul class='inf'>
+        <li id='close1'></li>
+        <li id='close2'></li>
+        <li id='close3'></li>        
+    </ul>
 </div>
-<div id='map'></div>
-
-
-
-
-
+<div id ='maps' class='hotelimg'></div>
+<div class='footer'>
+        <blockquote class="footline">
+                <p>@2018 TempleInn&Suites | Attributions | Jacob Wadsworth</p>
+                <p id="date"></p>
+                </blockquote>
+</div>
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCWL4CRw8IC0vaVpn7lEeP70mDyPwNqAA&callback=initMap">
     </script>
-<script src="scripts/maps.js"></script>
+<script src="scripts/maps2.js"></script>
+<script src="scripts/jkl.js"></script>
 <script src="scripts/test.js"></script>
 <script src='scripts/hamburger.js'></script>
 <script src='scripts/imgselect.js'></script>
+<script src="scripts/weatherapi.js"></script>
+<script src='scripts/currentdate.js'></script>
+<script src="scripts/currentdate.js"></script>
 </body>
 </html>

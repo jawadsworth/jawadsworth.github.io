@@ -48,6 +48,7 @@ function showTemples1(jsonObj) {
     document.getElementById('close1').innerHTML = closeh[0];
     document.getElementById('close2').innerHTML = closeh[1];
     document.getElementById('close3').innerHTML = closeh[2];
+    document.getElementById('close4').innerHTML = closeh[3];
     document.getElementById('sum').innerHTML = sumh[0];
     document.getElementById('sum1').innerHTML = sumh[1];
     document.getElementById('sum2').innerHTML = sumh[2];
@@ -108,6 +109,7 @@ function showTemples(jsonObj) {
     document.getElementById('close1').innerHTML = closeh[0];
     document.getElementById('close2').innerHTML = closeh[1];
     document.getElementById('close3').innerHTML = closeh[2];
+    document.getElementById('close4').innerHTML = closeh[3];
     document.getElementById('sum').innerHTML = sumh[0];
     document.getElementById('sum1').innerHTML = sumh[1];
     document.getElementById('sum2').innerHTML = sumh[2];
